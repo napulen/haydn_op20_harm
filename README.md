@@ -2,7 +2,7 @@
 Manually-annotated corpus of functional harmonic analysis in **harm syntax
 
 ## Description
-This corpus is a set of functional harmonic analysis annotations for the Op.20 string quartets from Joseph Haydn, commonly known as the ["Sun" quartets](https://en.wikipedia.org/wiki/String_Quartets,_Op._20_(Haydn)).
+This dataset is a set of functional harmonic analysis annotations for the Op.20 string quartets from Joseph Haydn, commonly known as the ["Sun" quartets](https://en.wikipedia.org/wiki/String_Quartets,_Op._20_(Haydn)).
 
 ### Content
 The dataset contains the following scores:
@@ -39,7 +39,24 @@ Haydn, Joseph
 		III. Menuetto. Allegretto
 		IV. Fuga a 3 soggetti. Allegro
 ```
-### Format
+### Structure
+The general structure of the folders is as following
+```
+op20/<quartet_number>/<movement_number>/
+```
+There are six quartets numbered from 1 to 6, and the movements are numbered in roman numerals. All of the string quartets contain four movements, therefore four subfolders can be found inside every quartet folder. Example:
+```
+op20/1/iv
+```
+Represents the path to the fourth movement of the string quartet Op.20 No.1.
+
+#### Files
+Each movement contains 3 files 
+```
+op20n<quartet_number>-<movement_number>.krn # Contains the original score in **kern syntax
+op20n<quartet_number>-<movement_number>.hrm # Contains the original score plus manual harmonic analysis
+op20n<quartet_number>-<movement_number>_tsroot.krn # Contains original score plus automatic harmonic analysis
+```
 The harmonic annotations are included as __\*\*harm__ spines in the humdrum format. The humdrum files were originally taken from the KernScores website, and the same algorithm for automatic harmonic analysis is used, which is based in the Melisma Music Analyzer and the Humdrum-Extra tools.
 
 ### Additions
