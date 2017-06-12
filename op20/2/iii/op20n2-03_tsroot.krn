@@ -1,0 +1,366 @@
+!!!COM: Haydn, Franz Joseph
+!!!OTL: String Quartet in C Major
+!!!OPS: Opus 20
+!!!ONM: No. 2
+!!!OMD: Menuetto: Allegretto
+!!!OMV: 3
+!!!SCT: H III:32
+!!!SCA: Thematisch-bibliographisches Werkevererzeichnis (A. van Hoboken)
+!!!YOR: Trautwein Edition
+!!!ENC: Frances Bennion
+!!!CDT: 1732/3/31/-1809/5/31/
+!!!CNT: Oesterreich
+!!!YEC: Copyright (c) 1994, 2000 Center for Computer Assisted Research in the Humanities
+!!!YEM: Rights to all derivative editions reserved.
+!!!YEM: Refer to licensing agreement for further details.
+!!!YEN: United States of America
+**tshrm	**tsroot	**kern	**kern	**kern	**kern
+*k[]	*k[]	*k[]	*k[]	*k[]	*k[]
+*	*	*C:	*C:	*C:	*C:
+*	*	*clefF4	*clefC3	*clefG	*clefG
+*M3/4	*M3/4	*M3/4	*M3/4	*M3/4	*M3/4
+*C:	*C:	*	*	*	*
+I	C	4c	[2.c	[2.g	[2.ee 2.g
+.	C	4c	.	.	.
+.	C	[4c	.	.	.
+=2	=2	=2	=2	=2	=2
+.	C	4c]	4c]	2.g_	4ee 4g]
+.	C	4d	4d	.	4ff
+.	C	[4B	[4B	.	[4dd
+=3	=3	=3	=3	=3	=3
+.	C	4B]	4B]	2.g_	[4dd 4g]
+.	C	4c	4c	.	4ee
+ii	D	[4e	[4e	.	[4gg
+=4	=4	=4	=4	=4	=4
+.	r	4e]	4e]	2.g_	4gg 4g]_
+Vb	G	4d	4d	.	4ff
+.	G	[4c	[4c	.	[4ee
+=5	=5	=5	=5	=5	=5
+.	G	4c]	4c]	2.g]	4ee 4g]
+.	r	4B	4B	.	4dd
+I	C	4c	4c	.	4ee
+=6	=6	=6	=6	=6	=6
+.	C	[2.G	[2.d	[2.b	[2.ff 2.g
+=7	=7	=7	=7	=7	=7
+.	C	2G]	2d]	2b]	2ff]
+ii	D	4r	4r	8dd	16ff
+.	r	.	.	.	16ee
+.	D	.	.	8ee	16ff
+.	r	.	.	.	16gg
+=8	=8	=8	=8	=8	=8
+.	D	2.r	2.r	4ff	4aa
+I	C	.	.	4ee	4gg
+.	r	.	.	4dd	4ff
+=9	=9	=9	=9	=9	=9
+.	C	2.r	2.r	4dd	4ff
+.	C	.	.	4cc	4ee
+Vb	G	.	.	4b	4dd#
+=10	=10	=10	=10	=10	=10
+.	r	2.r	2.r	2.b	2.dd#
+=11	=11	=11	=11	=11	=11
+V7	G	4r	4r	4cc	4ee
+.	G	4c	4c	4g	4ee
+.	G	4A	4a	4cc	4ff#
+=12	=12	=12	=12	=12	=12
+.	r	4B	2g	2.dd	4gg
+.	r	4B	.	.	4gg
+.	r	4F#	4d	.	4aa
+=13	=13	=13	=13	=13	=13
+.	r	4G	4d	4dd	4bb
+.	r	2r	2r	4gg	4bb
+.	r	.	.	4aa	4ccc
+=14	=14	=14	=14	=14	=14
+.	r	2.r	2.r	4bb	4ddd
+.	D	.	.	4gg	4bb
+.	E	.	.	4r	4ggg
+=15	=15	=15	=15	=15	=15
+.	D	4G	4d	4b	2ddd
+.	D	4G	4d	4b	.
+iii	E	4r	4r	4r	8fff#
+.	E	.	.	.	8ggg
+=16	=16	=16	=16	=16	=16
+.	E	4G	4d	4b	4ddd
+ii	D	4G	4d	4b	4ddd
+.	D	4r	4r	4r	8fff#
+.	r	.	.	.	8ggg
+=17	=17	=17	=17	=17	=17
+.	D	2.r	2.r	2.r	4ddd
+.	D	.	.	.	8eee
+.	D	.	.	.	8fff#
+vib	A	.	.	.	8ggg
+.	A	.	.	.	8aaa
+=18	=18	=18	=18	=18	=18
+.	r	2r	2r	2r	4bbb
+VII	B	.	.	.	4r
+.	B	4BB	4B	4B	4B
+=19	=19	=19	=19	=19	=19
+*G:	*G:	*	*	*	*
+III	B	4C	4c	4c	4c
+.	r	4AA	4A	4A	4A
+.	r	4D	4d	4d	4d
+=20	=20	=20	=20	=20	=20
+.	r	4GG	4G	4G	4G
+.	r	2r	2r	2r	2r
+=21	=21	=21	=21	=21	=21
+IV	C	4GG	2.r	2.r	2G 2g]
+.	C	2r	.	.	.
+.	C	.	.	.	4f#
+=22	=22	=22	=22	=22	=22
+.	C	2.r	2r	2r	4f 4G
+V7c	D	.	.	.	4e
+.	r	.	4cc	4ff#	4e-
+=23	=23	=23	=23	=23	=23
+Ib	G	4GG	4b	4gg	4d 4G
+.	G	2r	2r	2r	4g
+.	G	.	.	.	4f#
+=24	=24	=24	=24	=24	=24
+.	r	2.r	2r	2r	4f 4G
+Vb	D	.	.	.	4e
+.	D	.	4cc	4ff#	4e-
+=25	=25	=25	=25	=25	=25
+I	G	4GG	4b	4gg	4d 4G
+.	G	2r	2r	2r	4g
+.	G	.	.	.	4f#
+=26	=26	=26	=26	=26	=26
+.	G	2.r	2r	2r	4f 4G
+Chr	F	.	.	.	4e
+.	F	.	4cc	4ff#	4e-
+=27	=27	=27	=27	=27	=27
+Ib	G	4GG	4b	4gg	4d 4G
+.	r	2r	4r	4r	4g
+.	G	.	4cc	4ff#	4e-
+=28	=28	=28	=28	=28	=28
+.	G	4GG	4b	4gg	4G 4d
+.	G	2r	2r	2r	2r
+=29	=29	=29	=29	=29	=29
+.	G	4c	[2.c	[2.g	[2.ee 2.g
+.	G	4c	.	.	.
+.	G	[4c	.	.	.
+=30	=30	=30	=30	=30	=30
+.	G	4c]	4c]	2.g_	4ee 4g]_
+.	G	4d	4d	.	4ff
+.	G	[4B	[4B	.	[4dd
+=31	=31	=31	=31	=31	=31
+.	G	4B]	4B]	2.g_	4dd 4g]_
+.	G	4c	4c	.	4ee
+.	G	[4e	[4e	.	[4gg
+=32	=32	=32	=32	=32	=32
+.	r	4e]	4e]	2.g_	4gg 4g]_
+.	G	4d	4d	.	4ff
+.	G	[4c	[4c	.	[4ee
+=33	=33	=33	=33	=33	=33
+.	G	4c]	4c]	2.g]	4ee 4g]
+.	r	4B	4B	.	4dd
+IVb	C	4c	4c	.	4ee
+=34	=34	=34	=34	=34	=34
+.	D	[2.G	[2.d	[2.b	[2.ff 2.g
+=35	=35	=35	=35	=35	=35
+.	G	2G]	2d]	2b]	2ff]
+.	r	4r	4r	8dd	16ff
+.	r	.	.	.	16ee
+.	r	.	.	8ee	16ff
+.	r	.	.	.	16gg
+=36	=36	=36	=36	=36	=36
+.	r	2.r	2.r	4ff	4aa
+.	G	.	.	4ee	4gg
+.	r	.	.	4dd	4ff
+=37	=37	=37	=37	=37	=37
+IV	C	2.r	2.r	4dd	4ff
+.	C	.	.	4cc	4ee
+Vc	D	.	.	4dd	4ff
+=38	=38	=38	=38	=38	=38
+.	r	4E	4c	4ee	4gg
+.	D	2r	2r	8cc	8ee
+.	D	.	.	8dd	8ff
+.	D	.	.	8ee	8gg
+.	D	.	.	8ff	8aa
+=39	=39	=39	=39	=39	=39
+I	G	2r	2r	4gg	4bb-
+.	G	.	.	4ff	4aa
+.	G	4c	4c	4ee	4gg
+=40	=40	=40	=40	=40	=40
+.	G	4F	2c	4ff	4aa
+.	G	4F	.	4cc	4aa
+.	G	4D	4d	4ff	4bb
+=41	=41	=41	=41	=41	=41
+.	G	4E	2G	4ee	4ccc
+.	r	4E	.	4gg	4ccc
+.	r	4BB	4f	4gg	4ddd
+=42	=42	=42	=42	=42	=42
+.	r	4C	4e	4gg	4eee
+Vb	D	2r	2r	4cc	4eee
+.	r	.	.	4dd	4fff
+=43	=43	=43	=43	=43	=43
+V7/IV	G	2.r	2.r	4ee	4ggg
+.	G	.	.	2r	8ggg
+.	G	.	.	.	8eee
+IVb	C	.	.	.	8aaa
+.	C	.	.	.	8fff
+=44	=44	=44	=44	=44	=44
+.	C	4c	4g	4ee	2ggg
+ivb	C	4c	4g	4ee	.
+.	C	4r	4r	4r	4cccc
+=45	=45	=45	=45	=45	=45
+I	G	4c	4g	4ee	4ggg
+.	G	4c	4g	4ee	4ggg
+.	G	4r	4r	4r	4cccc
+=46	=46	=46	=46	=46	=46
+.	r	2r	2r	2r	2ggg
+.	D	4A	4a	4e	4cc
+=47	=47	=47	=47	=47	=47
+V7/IV	G	4F	4f	4a	4dd
+.	r	4r	4r	4f	4ff
+IVb	C	4G	4f	4d	4b
+=48	=48	=48	=48	=48	=48
+.	C	4C	4e	4e	4cc
+ivb	C	2r	2r	2r	2r
+=49	=49	=49	=49	=49	=49
+I	G	[2.C	[2.c	[2.G	[2.e
+=50	=50	=50	=50	=50	=50
+.	G	4C]	4c]	2.G_	4e]
+Vb	D	4D	4d	.	4f
+.	r	[4BB	[4B	.	[4d
+=51	=51	=51	=51	=51	=51
+V7/IV	G	4BB]	4B]	2.G_	4d]
+.	G	4C	4c	.	4e
+IVb	C	[4E	[4e	.	[4g
+=52	=52	=52	=52	=52	=52
+.	r	4E]	4e]	2.G_	4g]
+ivb	C	4D	4d	.	4f
+.	C	4C	4c	.	4e
+=53	=53	=53	=53	=53	=53
+I	G	4C	4c	2.G]	4e
+.	G	4BB	4B	.	4d
+.	G	4C	4c	.	4e
+=54	=54	=54	=54	=54	=54
+.	G	2.FF	[2.F	2.A	2.f
+=55	=55	=55	=55	=55	=55
+I	G	2.GG	2.F]	2.B	4d
+.	r	.	.	.	4c
+IVc	r	.	.	.	4d
+=56	=56	=56	=56	=56	=56
+.	r	4CC	4E	4c	4c
+.	C	2r	2r	2r	2r
+=57	=57	=57	=57	=57	=57
+*	*	*c:	*c:	*c:	*c:
+*C:	*C:	*	*	*	*
+I	C	4c	[2.c	[2.e-	2.g
+.	C	4B	.	.	.
+.	C	4c	.	.	.
+=58	=58	=58	=58	=58	=58
+.	C	4A-	2.c]	2.e-]	[2.f
+.	C	4AA-	.	.	.
+.	C	4A-	.	.	.
+=59	=59	=59	=59	=59	=59
+.	C	4B-	[2.B-	[2.d	2.f]
+.	C	4A-	.	.	.
+ii	D	4B-	.	.	.
+=60	=60	=60	=60	=60	=60
+.	r	4G	2.B-]	2.d]	[2.e-
+Vb	G	4GG	.	.	.
+.	G	4G	.	.	.
+=61	=61	=61	=61	=61	=61
+.	G	4A-	[2.A-	[2.c	2.e-]
+.	r	4G	.	.	.
+I	C	4A-	.	.	.
+=62	=62	=62	=62	=62	=62
+.	C	4F	2.A-]	2.c]	[2.d
+.	C	4FF	.	.	.
+.	C	4F	.	.	.
+=63	=63	=63	=63	=63	=63
+.	C	4G	2.G	2.B	2.d]
+.	C	4F	.	.	.
+ii	D	4G	.	.	.
+=64	=64	=64	=64	=64	=64
+.	D	4E-	4c	4c	4e-
+I	C	4c	4cc	4cc	4cc
+.	r	4B-	4b-	4b-	4b-
+=65	=65	=65	=65	=65	=65
+.	C	4A-	4a-	4a-	4a-
+.	C	4G	4g	4g	4g
+Vb	G	4F#	4f#	4f#	4f#
+=66	=66	=66	=66	=66	=66
+.	r	4G	4g	4g	4g
+I	C	4GG	4G	4G	4G
+.	C	4r	4r	4b	4dd
+=67	=67	=67	=67	=67	=67
+V7	G	2.r	2.r	4cc	4ee-
+.	G	.	.	4r	4r
+.	G	.	.	4f#	4cc
+=68	=68	=68	=68	=68	=68
+.	r	4GG	4G	4g	4b
+.	r	2r	2r	2r	2r
+=69	=69	=69	=69	=69	=69
+.	r	2.B-	2.b-	2.b-	2.b-
+=70	=70	=70	=70	=70	=70
+.	r	2.D-	2.d-	2.d-	2.d-
+=71	=71	=71	=71	=71	=71
+IV	F	4C	4c	4c	4c
+.	F	4B-	4b-	4b-	4b-
+Ib	C	4G	4g	4g	4g
+=72	=72	=72	=72	=72	=72
+.	C	4A-	4a-	4a-	4a-
+ii	D	4E	4e	4e	4e
+.	D	4F	4f	4f	4f
+=73	=73	=73	=73	=73	=73
+.	D	2.c	2.cc	2.cc	2.cc
+=74	=74	=74	=74	=74	=74
+.	r	2.E-	2.e-	2.e-	2.e-
+=75	=75	=75	=75	=75	=75
+Ib	C	4D	4d	4d	4d
+.	r	4c	4cc	4cc	4cc
+.	C	4A	4a	4a	4a
+=76	=76	=76	=76	=76	=76
+.	B-	4B	4b	4b	4b
+.	C	4F#	4f#	4f#	4f#
+.	F	4G	4g	4g	4g
+=77	=77	=77	=77	=77	=77
+v	G	4GG	4r	4r	[2.gg
+.	G	2r	4d	4f#	.
+IV	F	.	4e-	4g	.
+=78	=78	=78	=78	=78	=78
+.	F	4GG	4r	4r	2.gg_
+I	C	2r	4c#	4e	.
+.	r	.	4d	4f	.
+=79	=79	=79	=79	=79	=79
+IV	F	4GG	4r	4r	2.gg_
+.	F	2r	4B	4d	.
+.	F	.	4c	4e-	.
+=80	=80	=80	=80	=80	=80
+.	r	4GG	4r	4r	2.gg]
+V7c	G	2r	4A	4c#	.
+.	G	.	4B	4d	.
+=81	=81	=81	=81	=81	=81
+Ib	C	4GG	4r	4r	[2.g
+.	C	2r	4c	4e-	.
+.	C	.	4c	4e-	.
+=82	=82	=82	=82	=82	=82
+.	C	4GG	4r	4r	2.g]
+V7b	G	2r	4B	4d	.
+.	G	.	4B	4d	.
+=83	=83	=83	=83	=83	=83
+I	C	4GG	4r	4r	2.f#
+.	r	2r	4A	4c	.
+.	C	.	4A	4c	.
+=84	=84	=84	=84	=84	=84
+.	C	4GG	4G	4B	4g
+ii	D	2r	2r	2r	2r
+=85	=85	=85	=85	=85	=85
+Ib	C	4GG	4G	4B	4g
+.	C	2r	2r	2r	2r
+=86	=86	=86	=86	=86	=86
+.	C	4GG	4G	4B	4g
+IV	F	2r	2r	2r	2r
+==	==	==	==	==	==
+*-	*-	*-	*-	*-	*-
+!!!RWG1: This file contains only pitch and duration data.
+!!!RWG2: Transposing instruments are not transposed.
+!!!RWG3: Spines may have incompatible meters.
+!!!RWG4: Durations of rests and tied notes may be interpreted.
+!!!RWG: Key is interpreted using the Humdrum key tool.
+!!!GTL: 6 Divertimentos ("Sun")
+!!!AFT: stage1
+!!!END: 1997/04/15
+!!!KEY: 1398784136
+!!!EMD: Converted from MuseData to Humdrum Dec 16, 2000, by Andreas Kornstaedt using muse2kern.
+!!!EMD: Manual editing by Craig Sapp, Nov 2001
