@@ -1,4 +1,4 @@
-import harmparser
+from harmparser import HarmParser
 import re
 import os
 import argparse
@@ -59,13 +59,11 @@ def parseColumn(col, harmspine):
 		elif cdict['null_record']:
 			harmspine.measures[harmspine.current_measure].append((harmspine.current_chord,harmspine.current_key))
 	else:
-		charm = harmparser.parseHarm(col)
-		if charm:	
-			for expr in charm:
-				harmspine.current_chord = expr['root']
-				harmspine.measures[harmspine.current_measure].append((harmspine.current_chord,harmspine.current_key))
-				break
-
+		hp = HarmParser()
+		harmdict = hp.parse(col)
+		if harmdict:	
+			harmspine.current_chord = harmdict['root']
+			harmspine.measures[harmspine.current_measure].append((harmspine.current_chord,harmspine.current_key))			
 
 def parseLine(line, manual, auto):
 	l = line.split('\t')	
