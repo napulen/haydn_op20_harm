@@ -17,7 +17,7 @@ def countChords(rootdir):
 						if line != '.' and '!' not in line and '*' not in line and '=' not in line:							
 							chords.append(line)
 				print '{}\t{} chord annotations'.format(filepath,len(chords))	
-				#pp.pprint(chords)
+				pp.pprint(chords)
 				x = HarmParser()
 				for chord in chords:					
 					harm = x.parse(chord)
