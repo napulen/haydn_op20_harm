@@ -1,94 +1,69 @@
-from harmparser import HarmParser
 import re
 import os
 import argparse
 import subprocess
 import pprint as pp
 
-recordparser = r'''
-		^(\*(?P<key>[^\]]+):)$	# Detecting key records
-		|				
-		^(=(?P<measure>\d+))$	# Or a measure change
+recordparser = r'''			
+		^(?P<measure>					# Find measure information
+		(=								# Assumming anything that starts with = as a measure
+		(?P<measure_number>\d+)			# But I only care about measure numbers
+		(?P<measure_reminder>[/S/s]*)	
+		))$
 		|
-		^(?P<null_record>\.)$	# Or a NULL record
+		^(?P<null_record>\.)$			# Detect NULL records
+		|
+		^(?P<root>[a-gA-G]+[-#]{0,2})	# And root changes
 		'''
 
-class HarmSpine:
+class RootSpine:
 	current_measure = 0
-	def __init__(self):
-		self.current_key = ''
-		self.current_chord = ''
+	def __init__(self):	
+		self.current_root = '?'
 		self.timebase = -1
-		self.measures = {0:[()]}
+		self.measures = {0:[]}
 
 
-def compare(harmexpr1, harmexpr2):
-	# Validate the shortest note using the census program
-	gtShortestNote = getShortestNote(groundtruth)
-	cShortestNote = getShortestNote(computed)	
-	if gtShortestNote != cShortestNote:
-		print 'ERROR: Not the same shortest note in {} and {}'.format(groundtruth, computed)
-		return None
-	# Everything went okay, now assemble
-	assemble = subprocess.Popen(('assemble', groundtruth, computed), stdout=subprocess.PIPE)
-	stdo, stde = assemble.communicate()
-	# Get rid of unwanted records
-	rid = subprocess.Popen(('rid', '-GLid'), stdout=subprocess.PIPE, stdin=subprocess.PIPE)
-	stdo, stde = rid.communicate(stdo)
-	# Create a new timebase using the shortest note
-	# Use either, they are the same (hopefully)
-	timebase = subprocess.Popen(('timebase', '-t', gtShortestNote), stdout=subprocess.PIPE, stdin=subprocess.PIPE)
-	stdo, stde = timebase.communicate(stdo)
-	# Finally, keep only **harm and **tshrm spines
-	extract = subprocess.Popen(('extract', '-i', '**harm,**tshrm'), stdout=subprocess.PIPE, stdin=subprocess.PIPE)
-	stdo, stde = stde = extract.communicate(stdo)
-	# The final output is in stdout, phew!
-	return stdo
-
-
-def parseColumn(col, harmspine):
+def parseColumn(col, rootspine):
 	p = re.compile(recordparser, re.VERBOSE)
 	m = p.match(col)
 	if m:
 		cdict = m.groupdict()
-		if cdict['key']:
-			harmspine.current_key = cdict['key']			
-		elif cdict['measure']:
-			harmspine.current_measure = int(cdict['measure'])
-			harmspine.measures[harmspine.current_measure] = []		
+		if cdict['measure']:
+			# Only care about measure_numbers
+			if cdict['measure_number']:
+				rootspine.current_measure = int(cdict['measure_number'])
+				rootspine.measures[rootspine.current_measure] = []		
 		elif cdict['null_record']:
-			harmspine.measures[harmspine.current_measure].append((harmspine.current_chord,harmspine.current_key))
+			rootspine.measures[rootspine.current_measure].append(rootspine.current_root)
+		elif cdict['root']:
+			rootspine.current_root = cdict['root']
+			rootspine.measures[rootspine.current_measure].append(rootspine.current_root)
 	else:
-		hp = HarmParser()
-		harmdict = hp.parse(col)
-		if harmdict:	
-			harmspine.current_chord = harmdict['root']
-			harmspine.measures[harmspine.current_measure].append((harmspine.current_chord,harmspine.current_key))			
+		rootspine.measures[rootspine.current_measure].append(rootspine.current_root)
+
 
 def parseLine(line, manual, auto):
-	l = line.split('\t')	
+	l = line.strip().split('\t')	
 	parseColumn(l[0], manual)
 	parseColumn(l[1], auto)
 
 
-def printComparison(manual, auto):
+def compare(manual, auto):
+	matches = 0
+	totalunits = 0
 	for k,v in manual.measures.iteritems():		
-		print 'Measure: {}\nManual\tAuto'.format(k)
+		#print 'Measure: {}\nManual\tAuto'.format(k)
 		if len(v) != len(auto.measures[k]):
 			print 'WARNING: Mismatching entries in measure {}. Skipping.'.format(k)
 			continue
 		for idx in range(len(v)):
-			mkey = ''
-			mchord = ''
-			akey = ''
-			achord = ''
-			if len(manual.measures[k][idx]) > 0:
-				mchord = manual.measures[k][idx][0]
-				mkey = manual.measures[k][idx][1]
-			if len(auto.measures[k][idx]) > 0:
-				achord = auto.measures[k][idx][0]
-				akey = auto.measures[k][idx][1]	
-			print '{}:{}\t{}:{}'.format(mkey, mchord, akey, achord)
+			mfield = manual.measures[k][idx]
+			afield = auto.measures[k][idx]
+			matches += int(mfield == afield)
+			totalunits += 1
+			#print '{}\t{} --> {}/{}'.format(mfield, afield, matches, totalunits)
+	return matches,totalunits
 
 
 def evaluateFiles(rootdir):	
@@ -96,14 +71,16 @@ def evaluateFiles(rootdir):
 	for root, subfolder, files in os.walk(rootdir):		
 		for f in files:				
 			if f.endswith(".eval"):
-				print f
+				print f[:-5]
 				filename = str(os.path.join(root,f))
 				with open(filename) as fd:
-					manual = HarmSpine()
-					auto = HarmSpine()
+					manual = RootSpine()
+					auto = RootSpine()
 					for line in fd.readlines():						
 						parseLine(line, manual, auto)
-					printComparison(manual, auto)
+					matches, totalunits = compare(manual, auto)
+					percentage = 100.0*matches/totalunits
+					print '\t{}/{} identical time units\n\t{}%\n'.format(matches,totalunits, percentage)
 													
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='''Evaluates manual vs. automatic **harm annotation files.''')
