@@ -19,6 +19,7 @@ recordparser = r'''
 class RootSpine:
 	current_measure = 0
 	def __init__(self):	
+		self.filename = ''
 		self.current_root = '?'
 		self.timebase = -1
 		self.measures = {0:[]}
@@ -44,9 +45,10 @@ def parseColumn(col, rootspine):
 
 
 def parseLine(line, manual, auto):
-	l = line.strip().split('\t')	
-	parseColumn(l[0], manual)
-	parseColumn(l[1], auto)
+	l = line.strip().split('\t')
+		
+	parseColumn(l[1], manual)
+	parseColumn(l[3], auto)
 
 
 def compare(manual, auto):
@@ -66,17 +68,33 @@ def compare(manual, auto):
 	return matches,totalunits
 
 
+def parseHeader(lines, manual, auto):
+	for idx,l in enumerate(lines):
+		if l.startswith('!!!'):
+			l = l.strip()[3:].split(':')
+			if l[0] == 'ManualAnalysis':				
+				manual.filename = l[1]
+			elif l[0] == 'AutomaticAnalysis':
+				auto.filename = l[1]
+		elif l.startswith('**harm'):
+			break
+	return lines[idx+1:]
+
+
+
 def evaluateFiles(rootdir):	
 	counter = 0
 	for root, subfolder, files in os.walk(rootdir):		
 		for f in files:				
-			if f.endswith(".eval"):
-				print f[:-5]
+			if f.endswith(".eval"):				
 				filename = str(os.path.join(root,f))
 				with open(filename) as fd:
 					manual = RootSpine()
 					auto = RootSpine()
-					for line in fd.readlines():						
+					lines = fd.readlines()
+					noheader = parseHeader(lines, manual, auto)
+					print '{} vs. {}'.format(manual.filename, auto.filename)
+					for line in noheader:						
 						parseLine(line, manual, auto)
 					matches, totalunits = compare(manual, auto)
 					percentage = 100.0*matches/totalunits

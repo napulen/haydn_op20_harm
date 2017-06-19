@@ -3,6 +3,7 @@ import argparse
 import subprocess
 import pprint as pp
 import tempfile
+import datetime
 
 
 def getShortestNote(file):
@@ -21,6 +22,16 @@ def getShortestNote(file):
 		if tokens[0] == 'Shortest note':		
 			sn = tokens[1]		
 			return sn.strip()
+
+
+def addHeader(output, manfname, compfname):
+	title = '!!!Title: Evaluation file for harmonic analysis\n'
+	author = '!!!Author: Nestor Napoles (napulen@gmail.com)\n'
+	date = '!!!Date: {:%Y-%m-%d %H:%M:%S}\n'.format(datetime.datetime.now())
+	manfile = '!!!ManualAnalysis:{}\n'.format(manfname)
+	autofile = '!!!AutomaticAnalysis:{}\n'.format(compfname)
+	spines = '**harm\t**root\t**harm\t**root\n'
+	return title+author+date+manfile+autofile+spines+output
 
 
 def concatenate(groundtruth, computed):
@@ -60,7 +71,7 @@ def concatenate(groundtruth, computed):
 	timebase = subprocess.Popen(('timebase', '-t', gtShortestNote), stdout=subprocess.PIPE, stdin=subprocess.PIPE)
 	stdo, stde = timebase.communicate(stdo)
 	# Keep only **root spines
-	extract = subprocess.Popen(('extract', '-i', '**root'), stdout=subprocess.PIPE, stdin=subprocess.PIPE)
+	extract = subprocess.Popen(('extract', '-i', '**harm,**root'), stdout=subprocess.PIPE, stdin=subprocess.PIPE)
 	stdo, stde = extract.communicate(stdo)	
 	# Get rid of unwanted records
 	rid = subprocess.Popen(('rid', '-GLI'), stdout=subprocess.PIPE, stdin=subprocess.PIPE)
@@ -79,8 +90,10 @@ def genEvaluationFiles(rootdir):
 				# Now assume all automatic analysis follow the convention '<base>_tsroot.krn'
 				# and they are in the same folder than their corresponding manual annotation
 				base = f[:-4]
-				computed = str(os.path.join(root, '{}_tsroot.krn'.format(base)))
+				compfname = '{}_tsroot.krn'.format(base)
+				computed = str(os.path.join(root, compfname))
 				c = concatenate(groundtruth, computed)
+				c = addHeader(c, f, compfname)
 				if not c:
 					print 'Errors while concatenating {}'.format(base)
 					continue
