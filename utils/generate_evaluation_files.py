@@ -31,7 +31,7 @@ def concatenate(groundtruth, computed):
 		print 'ERROR: Not the same shortest note in {} and {}'.format(groundtruth, computed)
 		return None	
 	# Pre-processing groundtruth file	
-	harm2kern = subprocess.Popen(('harm2kern', '-ra', '--no-rhythm', groundtruth), stdout=subprocess.PIPE)
+	harm2kern = subprocess.Popen(('harm2kern', '-ra', '-o4', '--no-rhythm', groundtruth), stdout=subprocess.PIPE)
 	stdo, stde = harm2kern.communicate()
 	# Assume this file can be opened a second time, and it will be deleted automatically after closing.
 	tmpgroundtruth =  tempfile.NamedTemporaryFile()
@@ -43,7 +43,7 @@ def concatenate(groundtruth, computed):
 		stdo = f.read()
 	# Just expecting to find one instance of **tsharm
 	stdo = stdo.replace('**tshrm', '**harm', 1)	
-	harm2kern = subprocess.Popen(('harm2kern', '-ra', '--no-rhythm'), stdin=subprocess.PIPE, stdout=subprocess.PIPE)
+	harm2kern = subprocess.Popen(('harm2kern', '-ra', '-o4' , '--no-rhythm'), stdin=subprocess.PIPE, stdout=subprocess.PIPE)
 	stdo, stde = harm2kern.communicate(stdo)
 	# Assume this file can be opened a second time, and it will be deleted automatically after closing.
 	tmpcomputed =  tempfile.NamedTemporaryFile()
@@ -55,9 +55,6 @@ def concatenate(groundtruth, computed):
 	# No need for these temporary files anymore, close them
 	tmpcomputed.close()
 	tmpgroundtruth.close()
-	# Get rid of unwanted records
-	rid = subprocess.Popen(('rid', '-GLid'), stdout=subprocess.PIPE, stdin=subprocess.PIPE)
-	stdo, stde = rid.communicate(stdo)
 	# Create a new timebase using the shortest note
 	# Use either, they are the same (hopefully)
 	timebase = subprocess.Popen(('timebase', '-t', gtShortestNote), stdout=subprocess.PIPE, stdin=subprocess.PIPE)
@@ -65,6 +62,9 @@ def concatenate(groundtruth, computed):
 	# Keep only **root spines
 	extract = subprocess.Popen(('extract', '-i', '**root'), stdout=subprocess.PIPE, stdin=subprocess.PIPE)
 	stdo, stde = extract.communicate(stdo)	
+	# Get rid of unwanted records
+	rid = subprocess.Popen(('rid', '-GLI'), stdout=subprocess.PIPE, stdin=subprocess.PIPE)
+	stdo, stde = rid.communicate(stdo)
 	return stdo
 
 
