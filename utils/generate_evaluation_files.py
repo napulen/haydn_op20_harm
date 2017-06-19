@@ -41,6 +41,7 @@ def concatenate(groundtruth, computed):
 	# First rename the **tshrm spine to **harm so it is detected by harm2kern
 	with open(computed) as f:
 		stdo = f.read()
+	# Just expecting to find one instance of **tsharm
 	stdo = stdo.replace('**tshrm', '**harm', 1)	
 	harm2kern = subprocess.Popen(('harm2kern', '-ra', '--no-rhythm'), stdin=subprocess.PIPE, stdout=subprocess.PIPE)
 	stdo, stde = harm2kern.communicate(stdo)
@@ -51,6 +52,7 @@ def concatenate(groundtruth, computed):
 	# Everything went okay, now assemble
 	assemble = subprocess.Popen(('assemble', tmpgroundtruth.name, tmpcomputed.name), stdout=subprocess.PIPE)
 	stdo, stde = assemble.communicate()	
+	# No need for these temporary files anymore, close them
 	tmpcomputed.close()
 	tmpgroundtruth.close()
 	# Get rid of unwanted records
@@ -63,7 +65,6 @@ def concatenate(groundtruth, computed):
 	# Keep only **root spines
 	extract = subprocess.Popen(('extract', '-i', '**root'), stdout=subprocess.PIPE, stdin=subprocess.PIPE)
 	stdo, stde = extract.communicate(stdo)	
-	# Remove abstraction of the annotations by extracting the root
 	return stdo
 
 
