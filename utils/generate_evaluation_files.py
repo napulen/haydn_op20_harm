@@ -2,6 +2,7 @@ import os
 import argparse
 import subprocess
 import pprint as pp
+import tempfile
 
 
 def getShortestNote(file):
@@ -28,10 +29,30 @@ def concatenate(groundtruth, computed):
 	cShortestNote = getShortestNote(computed)	
 	if gtShortestNote != cShortestNote:
 		print 'ERROR: Not the same shortest note in {} and {}'.format(groundtruth, computed)
-		return None
+		return None	
+	# Pre-processing groundtruth file	
+	harm2kern = subprocess.Popen(('harm2kern', '-ra', '--no-rhythm', groundtruth), stdout=subprocess.PIPE)
+	stdo, stde = harm2kern.communicate()
+	# Assume this file can be opened a second time, and it will be deleted automatically after closing.
+	tmpgroundtruth =  tempfile.NamedTemporaryFile()
+	tmpgroundtruth.write(stdo)
+	tmpgroundtruth.flush()
+	# Pre-processing computed file
+	# First rename the **tshrm spine to **harm so it is detected by harm2kern
+	with open(computed) as f:
+		stdo = f.read()
+	stdo = stdo.replace('**tshrm', '**harm', 1)	
+	harm2kern = subprocess.Popen(('harm2kern', '-ra', '--no-rhythm'), stdin=subprocess.PIPE, stdout=subprocess.PIPE)
+	stdo, stde = harm2kern.communicate(stdo)
+	# Assume this file can be opened a second time, and it will be deleted automatically after closing.
+	tmpcomputed =  tempfile.NamedTemporaryFile()
+	tmpcomputed.write(stdo)
+	tmpcomputed.flush()
 	# Everything went okay, now assemble
-	assemble = subprocess.Popen(('assemble', groundtruth, computed), stdout=subprocess.PIPE)
-	stdo, stde = assemble.communicate()
+	assemble = subprocess.Popen(('assemble', tmpgroundtruth.name, tmpcomputed.name), stdout=subprocess.PIPE)
+	stdo, stde = assemble.communicate()	
+	tmpcomputed.close()
+	tmpgroundtruth.close()
 	# Get rid of unwanted records
 	rid = subprocess.Popen(('rid', '-GLid'), stdout=subprocess.PIPE, stdin=subprocess.PIPE)
 	stdo, stde = rid.communicate(stdo)
@@ -39,10 +60,10 @@ def concatenate(groundtruth, computed):
 	# Use either, they are the same (hopefully)
 	timebase = subprocess.Popen(('timebase', '-t', gtShortestNote), stdout=subprocess.PIPE, stdin=subprocess.PIPE)
 	stdo, stde = timebase.communicate(stdo)
-	# Finally, keep only **harm and **tshrm spines
-	extract = subprocess.Popen(('extract', '-i', '**harm,**tshrm'), stdout=subprocess.PIPE, stdin=subprocess.PIPE)
-	stdo, stde = stde = extract.communicate(stdo)
-	# The final output is in stdout, phew!
+	# Keep only **root spines
+	extract = subprocess.Popen(('extract', '-i', '**root'), stdout=subprocess.PIPE, stdin=subprocess.PIPE)
+	stdo, stde = extract.communicate(stdo)	
+	# Remove abstraction of the annotations by extracting the root
 	return stdo
 
 
@@ -65,9 +86,7 @@ def genEvaluationFiles(rootdir):
 				evaluation = str(os.path.join(root, '{}.eval'.format(base)))
 				with open(evaluation, "w") as ev:
 					ev.write(c)
-					ev.close()
-
-				
+					ev.close()						
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='''Concatenates the manual and automatic annotation files into evaluation files for all the corpus. This code requires the humdrum-extra tools to be installed.''')
