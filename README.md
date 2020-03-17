@@ -1,5 +1,7 @@
 # haydn_op20_harm
-Manually-annotated corpus of functional harmonic analysis in **harm syntax
+Manually-annotated corpus of functional harmonic analysis in **harm syntax.
+
+> If you are interested in reproducing the results of the MSc report "*Automatic harmonic analysis of classical string quartets from symbolic score*", please read the section at the end of this document.
 
 ## Description
 This dataset is a set of functional harmonic analysis annotations for the Op.20 string quartets from Joseph Haydn, commonly known as the ["Sun" quartets](https://en.wikipedia.org/wiki/String_Quartets,_Op._20_(Haydn)).
@@ -71,3 +73,18 @@ Op. 20 No. 4 - II. Un poco adagio e affettuoso
 ```
 
 For these files, the transcription to digital was done according to the Willhelm Altmann Edition, which is freely available at the IMSLP library [here](http://imslp.org/wiki/String_Quartets,_Op.20_(Haydn,_Joseph)).
+
+
+## Reproducing the evaluations done in "*Automatic harmonic analysis of classical string quartets from symbolic score*"
+
+The necessary scripts for reproducing the results are located in the `test` branch of this repository, under the `utils` folder.
+
+The scripts assume that you have the [Humdrum-Extras](http://extras.humdrum.org/) binaries compiled/installed in your environment.
+
+The scripts must be run in the following order:
+
+1. `count_chords.py` - This is a sanity-check script that extracts every manual annotation in the dataset and summarizes the number of annotations found in the dataset. Think of this as a `hello world` script to make sure your environment is working.
+2. `generate_evaluation_files.py` - This script will generate a `.eval` file at the level of every humdrum file. This evaluation file has a normalized duration for the entire score and concatenates the output of manual and automatic annotations in the same file.
+3. `evaluate.py` - This script applies the evaluation metric on the generated evaluation files. The output of the script shows the percentage of automatic annotations that match, in harmonic root, the manual annotations of the dataset.
+
+The automatic analyses computed during my MSc are provided as part of the dataset (files with `_tsroot.krn` termination). If you are interested in generating those files yourself, please refer to Chapter 4 of the MSc report to find information about that process.
