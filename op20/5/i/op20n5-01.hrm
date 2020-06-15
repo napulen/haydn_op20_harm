@@ -20,6 +20,7 @@
 *f:	*f:	*f:	*f:	*f:	*f:
 *	*	*clefF4	*clefC3	*clefG2	*clefG2
 *M4/4	*M4/4	*M4/4	*M4/4	*M4/4	*M4/4
+*staff1/2/3/4	*	*staff1	*staff2	*staff3	*staff4
 i	.	8r	8r	8r	[3..f
 .	.	8F	8A-	8c	.
 .	.	8F	8A-	8c	.
