@@ -20,7 +20,7 @@
 *G:	*G:	*G:	*G:	*G:	*G:
 *	*	*clefF4	*clefC3	*clefG2	*clefG2
 *M3/4	*M3/4	*M3/4	*M3/4	*M3/4	*M3/4
-*	*	*	*	*	*
+*staff1/2/3/4	*	*staff1	*staff2	*staff3	*staff4
 I	.	2G	[2.d	2B	4g
 .	.	.	.	.	4b
 .	.	4G	.	4b	4dd

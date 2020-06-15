@@ -20,6 +20,7 @@
 *g:	*g:	*g:	*g:	*g:	*g:
 *	*	*clefF4	*clefC3	*clefG2	*clefG2
 *M4/4	*M4/4	*M4/4	*M4/4	*M4/4	*M4/4
+*staff1/2/3/4	*	*staff1	*staff2	*staff3	*staff4
 .	.	2..r	2..r	2..r	2..r
 .	Exposition section	8r	8r	8d	8r
 =1	=1	=1	=1	=1	=1

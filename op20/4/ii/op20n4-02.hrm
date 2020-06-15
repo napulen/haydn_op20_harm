@@ -20,6 +20,7 @@
 *d:	*d:	*d:	*d:	*d:	*d:
 *	*	*clefF4	*clefC3	*clefG2	*clefG2
 *M2/4	*M2/4	*M2/4	*M2/4	*M2/4	*M2/4
+*staff1/2/3/4	*	*staff1	*staff2	*staff3	*staff4
 V	The tempo is slow enough to feel the V-i progression	8r	8r	8r	8a/
 =1	=1	=1	=1	=1	=1
 i	.	8r	8r	8r	4dd\

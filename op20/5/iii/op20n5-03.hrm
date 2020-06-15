@@ -20,7 +20,7 @@
 *F:	*F:	*F:	*F:	*F:	*F:
 *	*	*clefF4	*clefC3	*clefG2	*clefG2
 *M6/8	*M6/8	*M6/8	*M6/8	*M6/8	*M6/8
-*	*	*	*	*	*
+*staff1/2/3/4	*	*staff1	*staff2	*staff3	*staff4
 I	.	4F	4c	4a	8.cc
 .	Neighbouring tone	.	.	.	16dd
 .	.	8F	8c	8a	8cc
