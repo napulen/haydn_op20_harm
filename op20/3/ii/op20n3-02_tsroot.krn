@@ -16,7 +16,7 @@
 !!!YEN: United States of America
 **tshrm	**tsroot	**kern	**kern	**kern	**kern
 *k[b-e-]	*k[b-e-]	*k[b-e-]	*k[b-e-]	*k[b-e-]	*k[b-e-]
-*	*	*g:	*g:	*g:	*g:
+*g:	*g:	*g:	*g:	*g:	*g:
 *	*	*clefF4	*clefC3	*clefF	*clefF
 *M3/4	*M3/4	*M3/4	*M3/4	*M3/4	*M3/4
 .	G	2r	2r	2r	2r
@@ -228,7 +228,6 @@ V	B-	4GG	4G	4B	4d
 I	E-	4r	4r	4r	4r
 .	E-	4r	4r	4r	4B-
 =53	=53	=53	=53	=53	=53
-*	*	*E-:	*E-:	*E-:	*E-:
 .	E-	4E-	4e-	4e- 4G	8e-
 .	E-	.	.	.	8B-
 .	E-	2r	2r	2r	8G
