@@ -74,7 +74,7 @@ I	C	.	8C	.	.
 iiic	E	24A	8C	8f	.
 .	r	24B	.	.	.
 .	E	24c	.	.	.
-*G:	*G:	*	*	*	*
+*G:	*G:	*G:	*G:	*G:	*G:
 Vc	D	24B	8C	8d	.
 .	r	24c	.	.	.
 .	r	24d	.	.	.
@@ -251,7 +251,7 @@ Chr	B-	4.F	4.f	4.a	4.aa
 .	r	.	.	.	32dd
 =20	=20	=20	=20	=20	=20
 .	r	2r	8g	8b-	8cc#
-*G:	*G:	*	*	*	*
+*G:	*G:	*G:	*G:	*G:	*G:
 I	G	.	8f	8a	8dd
 .	G	.	8e	8g	8ee
 .	r	.	8d	8f	8ff
@@ -473,7 +473,7 @@ I	G	8d	8f#	.	.
 .	G	8c	8e	.	.
 vib	E	8B	8d	8gg	8bb
 .	E	8A	8c	8aa	8ccc
-*Gm:	*Gm:	*	*	*	*
+*g:	*g:	*g:	*g:	*g:	*g:
 V7d/V	A	8G	8B	8bb	8ddd
 .	A	8F#	8A	8ccc	8eee
 Vb	D	8f#	8a	16bb	16ddd
@@ -543,7 +543,7 @@ V7/ii	E-	8e-	8g	8b-	8bb-
 .	E-	8e-	8g	8b-	8ee-
 =42	=42	=42	=42	=42	=42
 .	E-	1e-	8.g	8.b-	8cc#
-*G:	*G:	*	*	*	*
+*G:	*G:	*G:	*G:	*G:	*G:
 Ic	G	.	.	.	4cc#
 .	G	.	16f#	16a	.
 .	r	.	16g	16b-	.
@@ -585,7 +585,7 @@ V7b	D	4GG	4G	4B	4g
 .	G	.	8G	.	4b
 .	G	.	8c	8ee	.
 .	G	.	8B	4dd	8r
-*Dm:	*Dm:	*	*	*	*
+*d:	*d:	*d:	*d:	*d:	*d:
 iv	G	.	8f#	.	8ccc
 =47	=47	=47	=47	=47	=47
 .	G	4.r	8g	8r	4bb
@@ -644,7 +644,7 @@ V7d/IV	D	.	8d	16a	.
 .	D	.	.	16f	.
 .	D	8A	8d	16ff	.
 .	D	.	.	16f	.
-*Em:	*Em:	*	*	*	*
+*e:	*e:	*e:	*e:	*e:	*e:
 V7d/iii	D	8d	8d	16a	.
 .	D	.	.	16f	.
 =51	=51	=51	=51	=51	=51
@@ -713,7 +713,7 @@ V7d/ii	C	.	8c	16g	.
 .	C	.	.	16e	.
 .	C	8G	8c	16ee	.
 .	C	.	.	16e	.
-*Dm:	*Dm:	*	*	*	*
+*d:	*d:	*d:	*d:	*d:	*d:
 iio	E	8c	8c	16g	.
 .	E	.	.	16e	.
 =55	=55	=55	=55	=55	=55
@@ -827,7 +827,7 @@ VII	C	.	16ff	8a	.
 vb	A	1r	2.ff	2ff	8dd
 ib	D	.	.	.	8d
 .	D	.	.	.	8f
-*Am:	*Am:	*	*	*	*
+*a:	*a:	*a:	*a:	*a:	*a:
 ivc	D	.	.	.	8A
 iv7d	D	.	.	4.gg	8B-
 iiob	B	.	.	.	8G
@@ -850,7 +850,7 @@ V7d/IV	A	.	.	8ccc	8eee
 .	A	4.r	4.r	8ccc	8eee
 .	A	.	.	8ccc	8eee
 .	A	.	.	8.ccc	8.eee
-*B:	*B:	*	*	*	*
+*B:	*B:	*B:	*B:	*B:	*B:
 V7	F#	8A	8a	.	.
 .	F#	.	.	16aa	16ccc
 .	F#	8A	8a	16ccc	16eee
@@ -888,7 +888,7 @@ V7	F#	8G	8A	.	.
 .	B	16f#	.	.	.
 .	B	16e#	.	.	.
 .	B	8f#	.	.	.
-*Am:	*Am:	*	*	*	*
+*a:	*a:	*a:	*a:	*a:	*a:
 V7c/V	B	8f#	.	.	.
 .	B	8f#	.	.	.
 .	B	8f#	.	.	.
@@ -978,7 +978,7 @@ V7b	E	4AA	4A	4c	4a
 =77	=77	=77	=77	=77	=77
 .	A	1r	1r	4cc	4ee
 .	A	.	.	8r	8r
-*Dm:	*Dm:	*	*	*	*
+*d:	*d:	*d:	*d:	*d:	*d:
 V7c	A	.	.	8g#	8dd
 .	A	.	.	8.a	8.cc
 .	r	.	.	16g#	16b
@@ -1218,7 +1218,7 @@ I	C	8g	8b	4b	.
 .	C	8f	8a	.	.
 vib	A	8e	8g	8cc	8ee
 V7d/V	D	8d	8f	8dd	8ff
-*Cm:	*Cm:	*	*	*	*
+*c:	*c:	*c:	*c:	*c:	*c:
 V7d/V	D	8c	8e	8ee	8gg
 .	D	4B	8d	8ff	8aa
 Vb	G	.	8d	16ee	16gg
@@ -1284,7 +1284,7 @@ V7/ii	A-	8A-	8c	8e-	8ee-
 .	A-	8A-	8c	8e-	8a-
 =101	=101	=101	=101	=101	=101
 .	A-	1A-	8.c	8.e-	8f#
-*C:	*C:	*	*	*	*
+*C:	*C:	*C:	*C:	*C:	*C:
 Ic	C	.	.	.	4f#
 .	C	.	16B	16d	.
 .	C	.	16c	16e-	.

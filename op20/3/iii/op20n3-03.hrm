@@ -294,7 +294,7 @@ V7b/V	.	4r	4r	4r	[6..ggg
 .	.	.	.	.	16aa
 .	.	.	.	.	16gg
 =30	=30	=30	=30	=30	=30
-*D:	*D:	*	*	*	*
+*D:	*D:	*D:	*D:	*D:	*D:
 I[V]	This modulation occured a long time ago, but there is not a clear cadence where to place the modulation	16r	2.a]	2.dd	2.ff#
 .	.	16c#	.	.	.
 .	.	16d	.	.	.
@@ -488,7 +488,7 @@ V7b	.	4C#	4g	4A	2.r
 I	.	4D	4f#	4A	.
 .	.	4r	4r	4r	.
 =48	=48	=48	=48	=48	=48
-*d:	*d:	*	*	*	*
+*d:	*d:	*d:	*d:	*d:	*d:
 i	.	16r	[2.a	2.f	2.dd
 .	.	16c#	.	.	.
 .	.	16d	.	.	.
@@ -518,7 +518,7 @@ i	.	16r	[2.a	2.f	2.dd
 V7b/v	.	4G#	4b 4e	4dd]	4ee
 .	.	2r	2r	2r	2r
 =51	=51	=51	=51	=51	=51
-*a:	*a:	*	*	*	*
+*a:	*a:	*a:	*a:	*a:	*a:
 i[v]	.	4A	2A	2c	2.r
 .	.	4c	.	.	.
 .	.	4e	4A	4c	.
@@ -686,7 +686,7 @@ V/III	.	16G	16g	.	.
 .	.	16E	16e	.	.
 .	.	16D	16d	.	.
 =66	=66	=66	=66	=66	=66
-*C:	*C:	*	*	*	*
+*C:	*C:	*C:	*C:	*C:	*C:
 I[III]	.	2C	2c	2.G 2.e	4cc
 .	.	.	.	.	4ee
 .	.	4C	4c	.	4gg
@@ -891,7 +891,7 @@ V7c/V/V	.	4c#	8E	16G	16a
 .	.	.	8E	16e	16f#
 .	.	.	.	16g	16g
 =84	=84	=84	=84	=84	=84
-*G:	*G:	*	*	*	*
+*G:	*G:	*G:	*G:	*G:	*G:
 V[V/V]	.	4d	4D	16d	4f#
 .	.	.	.	16d	.
 .	.	.	.	16d	.

@@ -20,7 +20,7 @@
 *	*	*A-:	*A-:	*A-:	*A-:
 *	*	*clefF4	*clefC3	*clefG2	*clefG2
 *M3/8	*M3/8	*M3/8	*M3/8	*M3/8	*M3/8
-*A-:	*A-:	*	*	*	*
+*A-:	*A-:	*A-:	*A-:	*A-:	*A-:
 *staff1/2/3/4	*	*staff1	*staff2	*staff3	*staff4
 I	.	[4.AA-/	8A-/L	8c/L	[4.a-/
 .	.	.	8B-/	8d-/	.
@@ -194,7 +194,7 @@ V7/V	Pedal Eb	.	8dn\J	8f/J	16A-/LL
 V	.	4.EE-/]	4e-\	4g/	4G/
 .	.	.	8r	8r	8r
 =39:|!|:	=39:|!|:	=39:|!|:	=39:|!|:	=39:|!|:	=39:|!|:
-*E-:	*E-:	*	*	*	*
+*E-:	*E-:	*E-:	*E-:	*E-:	*E-:
 I	Considering as Eb Major	[4.E-\	8E-/L	8G/L	[4.e-/
 .	.	.	8F/	8A-/	.
 .	.	.	8G/J	8B-/J	.
@@ -223,7 +223,7 @@ vi	.	8c\L	8e-\L	8cc\L	8ee-\L]
 v	.	8B-\	8d-\	8dd-\	8ff\
 viioD7/v	.	8An\J	8c\J	8ee-\J	8gg-\J
 =46	=46	=46	=46	=46	=46
-*b-:	*b-:	*	*	*	*
+*b-:	*b-:	*b-:	*b-:	*b-:	*b-:
 vi[i]	Established the tonality with the fully diminished seventh going to Bb Minor	8B-\L	8d-\L	8dd-\L	8ff\L
 ii	.	8c\	8e-\	8cc\	8ee-\
 ib	.	8d-\J	8f\J	[8b-\J	8dd-\J
@@ -241,7 +241,7 @@ Vb/III	Suspensions here as well	4c\	8g-\L]	8dd-\L]	4ee-\
 .	.	.	8a-\	8cc\	.
 V7b/III	Moving to Db  Major	8C/	8a-\J	8ee-\J	8gg-\
 =50	=50	=50	=50	=50	=50
-*D-:	*D-:	*	*	*	*
+*D-:	*D-:	*D-:	*D-:	*D-:	*D-:
 I[III]	.	8D-\L	8f\L	8a-/L	8ff\L
 ii	.	8E-\	8g-\	8g-/	8ee-\
 Ib	.	8F\J	8a-\J	8f/J	8dd-\J
@@ -272,7 +272,7 @@ V/vi	Resolution of the german sixth, leading to Bb	8F\L	8an\L	8an\L	[4.ff\
 .	.	8G\	8g\	8b-\	.
 .	.	8An\J	8f\J	8cc\J	.
 =57	=57	=57	=57	=57	=57
-*b-:	*b-:	*	*	*	*
+*b-:	*b-:	*b-:	*b-:	*b-:	*b-:
 i[vi]	.	8B-\L	8d-\L	8dd-\L	8ff\L]
 .	.	8c\	8e-\	8cc\	8ee-\
 .	.	8d-\J	8f\J	8b-\J	8dd-\J
@@ -365,7 +365,7 @@ V/VII	.	8EE-/L	8B-/L	8e-/L	8g/L
 viiob/V/VII	.	8FF/	8A-/	8dn/	8f/
 Vb/V/VII	.	8GG/J	8B-/J	[8e-/J	8e-/J
 =77	=77	=77	=77	=77	=77
-*A-:	*A-:	*	*	*	*
+*A-:	*A-:	*A-:	*A-:	*A-:	*A-:
 vim7b	I do not know where to put the modulation to Ab Major, decided to put it in a deceptive cadence starting a sequential progression, but this is very difficult	8AA-/L	8c/L	8e-/L]	4.f/
 iib	.	8BB-/	8B-/	8d-/	.
 iim7d	.	8AA-/J	8B-/J	[8d-/J	.

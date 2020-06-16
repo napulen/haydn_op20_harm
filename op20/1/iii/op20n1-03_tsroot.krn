@@ -19,7 +19,7 @@
 *	*	*A-:	*A-:	*A-:	*A-:
 *	*	*clefF4	*clefC3	*clefG2	*clefG2
 *M3/8	*M3/8	*M3/8	*M3/8	*M3/8	*M3/8
-*A-:	*A-:	*	*	*	*
+*A-:	*A-:	*A-:	*A-:	*A-:	*A-:
 I	A-	[4.AA-/	8A-/L	8c/L	[4.a-/
 .	A-	.	8B-/	8d-/	.
 .	A-	.	8c/J	8e-/J	.
@@ -70,7 +70,7 @@ iib	B-	8D-/L	4d-\	8f/L	8b-\L
 .	B-	8BB-/	.	8d-/	8ff\
 V7b/V	B-	8Dn/J	8dn\	8f/J	8a-\J
 =13	=13	=13	=13	=13	=13
-*E-:	*E-:	*	*	*	*
+*E-:	*E-:	*E-:	*E-:	*E-:	*E-:
 I	E-	8E-\L	[4.e-\	8B-/L	8g\L
 .	E-	8E-\	.	8g/	8ee-\
 IV	A-	8F\J	.	8a-/J	8ddn\J
@@ -217,7 +217,7 @@ iib	F	8AA-/L	8A-/L	8c/L	8f/L
 Ic	E-	8BB-/	8G/	8B-/	8e-/
 V7	B-	8BB-/J	8F/J	8A-/J	8dn/J
 =44	=44	=44	=44	=44	=44
-*D-:	*D-:	*	*	*	*
+*D-:	*D-:	*D-:	*D-:	*D-:	*D-:
 vii	C	8C\L	8E-/L	8G/	[4.ee-\
 ii	E-	8e-\	8g-/	8r	.
 ii7d	E-	8d-\J	8f/J	8r	.
@@ -261,7 +261,7 @@ Ib	D-	8F\	.	4a-/	.
 i7b	D-	8F-\J	16cc-\LL	.	8ddn\
 .	D-	.	16a-\JJ	.	.
 =54	=54	=54	=54	=54	=54
-*A-:	*A-:	*	*	*	*
+*A-:	*A-:	*A-:	*A-:	*A-:	*A-:
 V	E-	8E-\L	8g\L	8g/L	[4.ee-\
 vi7	F	8F\	8f\	8a-/	.
 Vb	E-	8G\J	8e-\J	8b-/J	.

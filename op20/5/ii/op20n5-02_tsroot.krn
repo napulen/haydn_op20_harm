@@ -19,7 +19,7 @@
 *	*	*f:	*f:	*f:	*f:
 *	*	*clefF4	*clefC3	*clefG	*clefG
 *M3/4	*M3/4	*M3/4	*M3/4	*M3/4	*M3/4
-*Fm:	*Fm:	*	*	*	*
+*f:	*f:	*f:	*f:	*f:	*f:
 i	F	4F	4c	4A-	[2.cc
 .	F	4F	4c	4A-	.
 .	F	4F	4c	4A-	.
@@ -43,7 +43,7 @@ i	F	2.r	2.f	2.a-	4cc
 .	F	.	.	.	4cc
 .	F	.	.	.	4cc
 =7	=7	=7	=7	=7	=7
-*A-:	*A-:	*	*	*	*
+*A-:	*A-:	*A-:	*A-:	*A-:	*A-:
 iiib	C	2.r	2.e-	2.g	2cc
 .	C	.	.	.	8dd-
 .	C	.	.	.	8cc
@@ -94,7 +94,7 @@ Vb	E-	4G	4e	4B-	4r
 Ib	A-	2r	2r	2r	4cc
 .	A-	.	.	.	4cc
 =19	=19	=19	=19	=19	=19
-*Bbm:	*Bbm:	*	*	*	*
+*bb:	*bb:	*bb:	*bb:	*bb:	*bb:
 V7	F	4F	4e-	4A	[2.cc
 .	F	4F	4e-	4A	.
 .	F	4F	4e-	4A	.
@@ -113,7 +113,7 @@ ib	B-	2.r	4d-	4f	2b-
 .	B-	.	.	.	8ff
 .	B-	.	.	.	8dd-
 =23	=23	=23	=23	=23	=23
-*Fm:	*Fm:	*	*	*	*
+*f:	*f:	*f:	*f:	*f:	*f:
 V	C	2.r	4r	4r	2cc
 i	F	.	4f	4a-	.
 .	F	.	4f	4a-	8b
@@ -181,7 +181,7 @@ ib	F	[2.A-	2.c	2.f	4cc
 .	F	.	.	.	4cc
 .	F	.	.	.	4cc
 =40	=40	=40	=40	=40	=40
-*D-:	*D-:	*	*	*	*
+*D-:	*D-:	*D-:	*D-:	*D-:	*D-:
 V7	A-	2.A-_	2.e-	2.g-	2cc
 .	A-	.	.	.	8bb-
 .	A-	.	.	.	8aa-
@@ -194,7 +194,7 @@ V7	A-	2.A	2e-	2g-	2cc
 I	D-	.	4c	[4f	8ee-
 .	D-	.	.	.	8dd-
 =43	=43	=43	=43	=43	=43
-*Fm:	*Fm:	*	*	*	*
+*f:	*f:	*f:	*f:	*f:	*f:
 iv	B-	2B-	4B-	4f]	2dd-
 VIb	D-	.	4f	4a-	.
 V7b/V	G	4B	4d	4g	8ff
@@ -246,7 +246,7 @@ i	F	4FF	4F	4A-	4f
 .	F	2r	2r	2r	2r
 =55	=55	=55	=55	=55	=55
 *	*	*F:	*F:	*F:	*F:
-*F:	*F:	*	*	*	*
+*F:	*F:	*F:	*F:	*F:	*F:
 I	F	4FF	4F	2.A	2.f
 .	F	4FF	2r	.	.
 .	F	4FF	.	.	.
@@ -268,7 +268,7 @@ I	F	4FF]	4F	4A	4A
 .	F	.	.	.	8a
 .	B-	.	.	.	8b-
 =60	=60	=60	=60	=60	=60
-*C:	*C:	*	*	*	*
+*C:	*C:	*C:	*C:	*C:	*C:
 Vb	G	2.r	2.r	2.r	8b
 .	C	.	.	.	8cc
 .	G	.	.	.	8dd
@@ -309,7 +309,7 @@ Vc	G	4r	4r	4r	4ddd
 V7b	G	4B	4g	4dd	4ff
 I	C	4c	4g	4cc	4ee
 =67	=67	=67	=67	=67	=67
-*Dm:	*Dm:	*	*	*	*
+*d:	*d:	*d:	*d:	*d:	*d:
 ib	D	4F	4a	4a	4dd
 iv7d	r	2r	2r	2r	4r
 Vb	A	.	.	.	8cc#
@@ -326,7 +326,7 @@ i	D	.	.	.	8ff
 .	D	.	.	.	4r
 V7/VII	G	4G	4d	4B	4f
 =70	=70	=70	=70	=70	=70
-*F:	*F:	*	*	*	*
+*F:	*F:	*F:	*F:	*F:	*F:
 V	C	4C	4e	4c	4e
 ii	r	2r	2r	2r	2r
 =71	=71	=71	=71	=71	=71
@@ -447,7 +447,7 @@ V7b	C	2E	2g	2.cc	4bb-
 I	F	4F	4f	.	8.aa
 .	F	.	.	.	16ff
 =92	=92	=92	=92	=92	=92
-*Gm:	*Gm:	*	*	*	*
+*g:	*g:	*g:	*g:	*g:	*g:
 ib	G	4BB-	4B-	4dd	4gg
 iv7d	r	2r	2r	4r	4r
 Vc	D	.	.	8a	8ff#
@@ -460,7 +460,7 @@ ib	G	.	.	8dd	8bb-
 V7/VII	C	4C	8B-	8g	8ee
 .	C	.	8G	8b-	8gg
 =94	=94	=94	=94	=94	=94
-*Dm:	*Dm:	*	*	*	*
+*d:	*d:	*d:	*d:	*d:	*d:
 III	F	4F	4A	4a	4ff
 .	r	2r	2r	2r	2r
 =95	=95	=95	=95	=95	=95
@@ -475,7 +475,7 @@ iv7b	G	8d	.	8ff	.
 .	G	8d	.	8ff	.
 .	G	8B-	.	8dd	.
 =97	=97	=97	=97	=97	=97
-*Gm:	*Gm:	*	*	*	*
+*g:	*g:	*g:	*g:	*g:	*g:
 i	G	8F#	2.d	8a	2.bb-
 .	G	8G	.	8b-	.
 .	G	8A	.	8cc	.
@@ -483,7 +483,7 @@ i	G	8F#	2.d	8a	2.bb-
 .	G	8B-	.	8dd	.
 .	G	8G	.	8b-	.
 =98	=98	=98	=98	=98	=98
-*F:	*F:	*	*	*	*
+*F:	*F:	*F:	*F:	*F:	*F:
 V7b	C	2E	2.c	2g	8bb-
 .	C	.	.	.	8gg
 .	C	.	.	.	8ee

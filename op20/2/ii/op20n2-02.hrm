@@ -402,7 +402,7 @@ V7b/V	.	32f#\LLK	32an\LLK	32cc\LLK	32dd\LLK
 .	.	8f#\	8a\	8cc\	8dd\
 .	.	8r	8r	8r	8r
 =26	=26	=26	=26	=26	=26
-*g:	*g:	*	*	*	*
+*g:	*g:	*g:	*g:	*g:	*g:
 i[v]	Main theme, now in G minor	4G\	16g\LL	16b-\LL	16dd\LL
 .	.	.	16g\	16b-\	16dd\
 .	.	.	16g\	16b-\	16dd\
@@ -474,7 +474,7 @@ ivb	.	16.E-/LL	16.c\LL	16.g/LL	16.cc\LL
 V7b/iv	.	16.BBn/	16.f\	16.g/	16.dd\
 .	.	32BB/JJk	32f\JJk	32g/JJk	32dd\JJk
 =30	=30	=30	=30	=30	=30
-*c:	*c:	*	*	*	*
+*c:	*c:	*c:	*c:	*c:	*c:
 i[iv]	Back to C minor, but not for too long	4C/	4e-\	4g/	8ee-\L
 .	.	.	.	.	32ccc\LL
 .	.	.	.	.	32ddd\
@@ -534,7 +534,7 @@ V	.	8GG/	8G/	8Bn/	8d/
 .	.	4GG/	4D/	4B/	4g/
 .	.	4r	4r	4r	4r
 =34	=34	=34	=34	=34	=34
-*E-:	*E-:	*	*	*	*
+*E-:	*E-:	*E-:	*E-:	*E-:	*E-:
 I[III]	Introducing a new theme in the relative major	8EE-/	24B-\LL	8r	2b-\
 .	.	.	24e-\	.	.
 .	.	.	24g\	.	.
@@ -749,7 +749,7 @@ V7/V	.	8F\	24c\LL	4r	8b-/L
 .	.	24D\	24d\	24d/	.
 .	.	24C\JJ	24c\JJ	24c/JJ	.
 =42	=42	=42	=42	=42	=42
-*B-:	*B-:	*	*	*	*
+*B-:	*B-:	*B-:	*B-:	*B-:	*B-:
 IM7[VM7]	.	8BB-/	24d\LL	4B-/	4dd\
 .	.	.	24f\	.	.
 .	.	.	24an\	.	.
@@ -973,7 +973,7 @@ V7	.	1r	1r	1r	4f/
 I	.	4BB-/	4B-/	4b-\	4b-\
 .	.	4r	4r	4r	4r
 =51	=51	=51	=51	=51	=51
-*f:	*f:	*	*	*	*
+*f:	*f:	*f:	*f:	*f:	*f:
 VI[VI/v]	.	[4d-\	[4dd-\	[4dd-\	[4dd-\
 .	.	24d-\LL]	24dd-\LL]	24dd-/LL]	24dd-/LL]
 .	.	24c\	24cc\	24cc/	24cc/

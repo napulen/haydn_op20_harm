@@ -20,7 +20,7 @@
 *	*	*clefF4	*clefC3	*clefG2	*clefG2
 *met(c)	*met(c)	*met(c)	*met(c)	*met(c)	*met(c)
 *M4/4	*M4/4	*M4/4	*M4/4	*M4/4	*M4/4
-*E-:	*E-:	*	*	*	*
+*E-:	*E-:	*E-:	*E-:	*E-:	*E-:
 IVb	A-	4C/	4c\	4c/	4c/
 .	A-	4E-\	4e-\	4e-/	4e-/
 ivb	A-	8BBn\L	8Bn\L	8Bn/L	8Bn/L
@@ -206,7 +206,7 @@ IVb	A-	2r	16r	1r	16a-\LL
 .	A-	.	16c/LL	.	16cc\
 V7d	B-	.	16B-/	.	16b-\
 .	B-	.	16A-/JJ	.	16a-\JJ
-*Bbm:	*Bbm:	*	*	*	*
+*bb:	*bb:	*bb:	*bb:	*bb:	*bb:
 IV	E-	.	16G/LL	.	16g/LL
 .	E-	.	16F/	.	16f/
 V7d/VII	E-	.	16E-/	.	16e-/
@@ -291,7 +291,7 @@ i	B-	8r	8r	8r	32ddd-\
 .	B-	24B-\LL	24b-\LL	24b-\LL	24b-\LL
 .	B-	24d-\	24dd-\	24dd-\	24dd-\
 .	B-	24B-\JJ	24b-\JJ	24b-\JJ	24b-\JJ
-*Fm:	*Fm:	*	*	*	*
+*f:	*f:	*f:	*f:	*f:	*f:
 iv	B-	24B-\LL	24b-\LL	24b-\LL	24b-\LL
 .	B-	24c\	24cc\	24cc\	24cc\
 .	B-	24B-\JJ	24b-\JJ	24b-\JJ	24b-\JJ
@@ -323,7 +323,7 @@ i	F	1r	1r	16a-/LL	16ff\LL
 .	F	.	.	16b-/	16gg\
 i7	F	.	.	16a-/	16ff\
 .	F	.	.	16g/JJ	16ee-\JJ
-*Cm:	*Cm:	*	*	*	*
+*c:	*c:	*c:	*c:	*c:	*c:
 iv7d	F	.	.	16f/LL	16dd\LL
 .	F	.	.	16e-/	16cc\
 .	F	.	.	16g/	16ee-\
@@ -365,7 +365,7 @@ V7	G	24g\LL	24gg\LL	24gg\LL	24gg\LL
 .	G	24d\	24dd\	24dd\	24dd\
 .	G	24c\	24cc\	24cc\	24cc\
 .	G	24Bn\JJ	24bn\JJ	24bn\JJ	24bn\JJ
-*Gm:	*Gm:	*	*	*	*
+*g:	*g:	*g:	*g:	*g:	*g:
 iv	C	32c\LLL	32cc\LLL	32cc\LLL	32cc\LLL
 .	C	32d\	32dd\	32dd\	32dd\
 .	C	32e-\	32ee-\	32ee-\	32ee-\
@@ -479,7 +479,7 @@ V7b	D	16.F#\	16.c\	16.d/	16.an/
 .	D	32F#\JJk	32c\JJk	32d/JJk	32a/JJk
 i	G	8G\	8B-/	8d/	8b-\
 .	G	8r	8r	8r	8r
-*Cm:	*Cm:	*	*	*	*
+*c:	*c:	*c:	*c:	*c:	*c:
 v	G	16.G\LL	16.d\LL	16.g/LL	16.b-\LL
 .	G	32G\K	32d\K	32g/K	32b-\K
 V7d	G	16.Fn\	16.d\	16.g/	16.bn\
@@ -551,7 +551,7 @@ V	G	8GG/	8G/	8Bn/	8d/
 .	r	4r	4r	4r	4r
 =34	=34	=34	=34	=34	=34
 !!linebreak:original
-*E-:	*E-:	*	*	*	*
+*E-:	*E-:	*E-:	*E-:	*E-:	*E-:
 I	E-	8EE-/	24B-\LL	8r	2b-\
 .	E-	.	24e-\	.	.
 .	E-	.	24g\	.	.
@@ -670,7 +670,7 @@ I	E-	4EE-/	24B-\LL	8r	4gg\
 .	E-	.	24b-\	8e-/J	.
 .	E-	.	24g\	.	.
 .	E-	.	24e-\JJ	.	.
-*B-:	*B-:	*	*	*	*
+*B-:	*B-:	*B-:	*B-:	*B-:	*B-:
 Ib	B-	4D\	24B-\LL	8r	8ff\L
 .	B-	.	24d\	.	.
 .	B-	.	24f\	.	.
@@ -897,7 +897,7 @@ I	B-	4BB-/	24d\LL	8r	4b-\
 .	B-	.	.	.	32ff\
 .	B-	.	.	.	32bb-\
 .	B-	.	.	.	32ff\JJJ
-*Gm:	*Gm:	*	*	*	*
+*g:	*g:	*g:	*g:	*g:	*g:
 IIIb	B-	4D\	4d\	4b-\	32bb-\LLL
 .	B-	.	.	.	32ff#\
 .	B-	.	.	.	32bb-\
@@ -966,7 +966,7 @@ iv7	C	.	.	.	24bb-\LL
 .	C	.	.	.	24cc\JJ
 =49	=49	=49	=49	=49	=49
 !!linebreak:original
-*F:	*F:	*	*	*	*
+*F:	*F:	*F:	*F:	*F:	*F:
 I	F	1r	1r	1r	4f/
 .	F	.	.	.	24en/LL
 .	F	.	.	.	24f/
@@ -1003,7 +1003,7 @@ IV	B-	4BB-/	4B-/	4b-\	4b-\
 .	r	4r	4r	4r	4r
 =51	=51	=51	=51	=51	=51
 !!pagebreak:original
-*Fm:	*Fm:	*	*	*	*
+*f:	*f:	*f:	*f:	*f:	*f:
 iv	B-	[4d-\	[4dd-\	[4dd-\	[4dd-\
 .	r	24d-\LL]	24dd-\LL]	24dd-/LL]	24dd-/LL]
 .	B-	24c\	24cc\	24cc/	24cc/
@@ -1080,7 +1080,7 @@ i	F	24F\LL	24f\LL	24f/LL	24f/LL
 .	F	24F\	24f\	24f/	24f/
 .	F	24c\	24cc\	24cc/	24cc/
 .	F	24B-\JJ	24b-\JJ	24b-/JJ	24b-/JJ
-*E-:	*E-:	*	*	*	*
+*E-:	*E-:	*E-:	*E-:	*E-:	*E-:
 ii	F	24A-\LL	24a-\LL	24a-/LL	24a-/LL
 .	F	24G\	24g\	24g/	24g/
 .	F	24F\	24f\	24f/	24f/
@@ -1180,7 +1180,7 @@ V7d/IV	E-	2DD-/	2D-/	2d-/	24d-/LL
 .	E-	.	.	.	24b-/
 .	E-	.	.	.	24g/
 .	E-	.	.	.	24e-/JJ
-*Fm:	*Fm:	*	*	*	*
+*f:	*f:	*f:	*f:	*f:	*f:
 V	C	4CC/	4C/	4c/	24c/LL
 .	C	.	.	.	24en/
 .	C	.	.	.	24g/
@@ -1221,7 +1221,7 @@ ib	F	2AA-/	2A-/	2A-/	24A-/LL
 .	F	.	.	.	24c/JJ
 =60	=60	=60	=60	=60	=60
 !!linebreak:original
-*G:	*G:	*	*	*	*
+*G:	*G:	*G:	*G:	*G:	*G:
 Chr	F	2AAn/	4.An/	4.An/	24An/LL
 .	F	.	.	.	24c/
 .	F	.	.	.	24e-/
