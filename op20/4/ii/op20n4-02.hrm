@@ -58,15 +58,15 @@ i	.	8D\J	8d\J	8f/J	16.ff\L
 ivm7	.	4G\	4d\	8f/L	[4b-\
 .	.	.	.	16.g/L	.
 .	.	.	.	32d/JJk	.
-VII7	.	4C/	8g\L	4e/	8b-\L]
+-VII7	.	4C/	8g\L	4e/	8b-\L]
 .	.	.	8e\J	.	16.gg\L
 .	.	.	.	.	32b-\JJk
 =7	=7	=7	=7	=7	=7
 VIb	Appoggiaturas in the first violin and viola	8D/L	8c/L	8f/L	8a/L
 VI	.	8BB-/J	8B-/J	8d/J	16.b-/L
 .	.	.	.	.	32g/JJk
-V/III[VII]	This time the VII acts like a dominant to the relative major	8C/L	8A/L	8c/L	8f/L
-V7/III[VII7]	Strengthened with the seventh	8C/J	16.G/L	8B-/J	16.e/L
+V/III[-VII]	This time the VII acts like a dominant to the relative major	8C/L	8A/L	8c/L	8f/L
+V7/III[-VII7]	Strengthened with the seventh	8C/J	16.G/L	8B-/J	16.e/L
 .	.	.	64B-/LL	.	64g/LL
 .	.	.	64G/JJJJ	.	64e/JJJJ
 =8	=8	=8	=8	=8	=8
@@ -715,15 +715,15 @@ i	.	8D\J	8d\J	8f/J	16.ff\L
 ivm7	.	4G\	4d\	8f/L	[4b-\
 .	.	.	.	16.g/L	.
 .	.	.	.	32d/JJk	.
-VII7	.	4C/	8g\L	4e/	8b-\L]
+-VII7	.	4C/	8g\L	4e/	8b-\L]
 .	.	.	8e\J	.	16.gg\L
 .	.	.	.	.	32b-\JJk
 =79	=79	=79	=79	=79	=79
 III	.	8F\L	8c/L	8f/L	8a/L
 VI	.	8BB-\J	8B-/J	8d/J	16.b-/L
 .	.	.	.	.	32f/JJk
-V/III[VII]	.	8C/L	8A/L	8c/L	8.e/L
-V7/III[VII7]	.	8C/J	16.G/L	8B-/J	.
+V/III[-VII]	.	8C/L	8A/L	8c/L	8.e/L
+V7/III[-VII7]	.	8C/J	16.G/L	8B-/J	.
 .	.	.	.	.	32g/LL
 .	.	.	64B-/LL	.	32e/JJJ
 .	.	.	64G/JJJJ	.	.
@@ -798,7 +798,7 @@ V	.	4AA/	4A/	.	.
 .	.	4r	4r	8ee\L	8gg\L
 .	.	.	.	8dd\J	8ff\J
 .	.	8r	8r	8cc#\L	8ee\L
-VII7	.	[8g\	[8b-\	8cc#\J	8ee\J
+viioc	.	[8g\	[8b-\	8cc#\J	8ee\J
 =92	=92	=92	=92	=92	=92
 .	.	8g\L]	8b-\L]	4.cc\	4.ee\
 .	.	8f\J	8a\J	.	.
