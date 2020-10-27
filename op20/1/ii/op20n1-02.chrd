@@ -1,0 +1,329 @@
+!!!COM: Haydn, Franz Joseph	
+!!!OTL: String Quartet in E-flat Major	
+!!!OPS: Opus 20	
+!!!ONM: No. 1	
+!!!OMD: Menuetto: un poco allegretto	
+!!!OMV: 2	
+!!!SCT: H III:31	
+!!!SCA: Thematisch-bibliographisches Werkevererzeichnis (A. van Hoboken)	
+!!!YOR: Trautwein Edition	
+!!!ENC: Frances Bennion	
+!!!ENC: Harmonic analysis by Nestor Napoles	
+!!!CDT: 1732/3/31/-1809/5/31/	
+!!!CNT: Oesterreich	
+!!!YEC: Copyright (c) 1994, 2000 Center for Computer Assisted Research in the Humanities	
+!!!YEM: Rights to all derivative editions reserved.	
+!!!YEM: Refer to licensing agreement for further details.	
+!!!YEN: United States of America	
+**harm	**commentary	**kern	**kern	**kern	**kern
+*k[b-e-a-]	*k[b-e-a-]	*k[b-e-a-]	*k[b-e-a-]	*k[b-e-a-]	*k[b-e-a-]
+*E-:	*E-:	*E-:	*E-:	*E-:	*E-:
+*	*	*clefF4	*clefC3	*clefG2	*clefG2
+*M3/4	*M3/4	*M3/4	*M3/4	*M3/4	*M3/4
+*staff1/2/3/4	*	*staff1	*staff2	*staff3	*staff4
+.	.	2r	2r	2r	2r
+.	.	4r	4r	4r	8.e-
+.	.	.	.	.	16g
+=1	=1	=1	=1	=1	=1
+Eb_major	.	4E-	4e-	4e- 4G	4b-
+.	.	4r	4r	4r	4b-
+.	.	4e-	[4b-	4g	4ee-
+=2	=2	=2	=2	=2	=2
+Bb_dominant_seventh	.	4f	4b-]	4a-	4dd
+.	.	4r	4r	4r	4b-
+.	.	4f	[4b-	4a-	8.b-
+.	.	.	.	.	16dd
+=3	=3	=3	=3	=3	=3
+Eb_major	.	4e-	4b-]	4g	4ee-
+.	.	4r	4r	4r	4ee-
+.	.	4e-	[4b-	4g	4gg
+=4	=4	=4	=4	=4	=4
+Bb_dominant_seventh	.	2d	2b-]	2f	2aa-
+.	.	4DD	4D	4A-	4A-
+=5	=5	=5	=5	=5	=5
+Eb_major	.	4EE-	4E-	4G	4G
+.	.	4FF	4F	4A-	4A-
+.	.	4GG	4G	4B-	4B-
+=6	=6	=6	=6	=6	=6
+Ab_major	.	4AA-	4A-	4c	4c
+.	.	4BB-	4B-	4d	4d
+.	.	4C	4c	4e-	4e-
+=7	=7	=7	=7	=7	=7
+Ab_major	.	4AA-	4A-	2f	2f
+.	.	4FF	4F	.	.
+Bb_major	.	4BB-	4B-	8.d	8.d
+.	.	.	.	16B-	16B-
+=8	=8	=8	=8	=8	=8
+Eb_major	.	2EE-	4E-	4e-	4e-
+.	.	.	4r	4r	4r
+.	.	4r	4e-	4g	8.g
+.	.	.	.	.	16e-
+=9	=9	=9	=9	=9	=9
+Bb_major	.	2.r	2d	2f	4b-
+.	.	.	.	.	4b-
+A_italian_augmented_sixth	.	.	4c	4e-	8.ee-
+.	.	.	.	.	16a
+=10	=10	=10	=10	=10	=10
+Bb_major	.	2.r	2B-	2d	4b-
+.	.	.	.	.	4b-
+Eb_major	.	.	4e-	4g	8.g
+.	.	.	.	.	16e-
+=11	=11	=11	=11	=11	=11
+Bb_major	.	2.r	2d	2f	4b-
+.	.	.	.	.	4b-
+A_italian_augmented_sixth	.	.	4c	4e-	8.ee-
+.	.	.	.	.	16a
+=12	=12	=12	=12	=12	=12
+Bb_major	.	2.r	2B-	2d	4b-
+.	.	.	.	.	4b-
+Bb_minor	Going to Bb minor	.	4r	4r	8.b-
+.	.	.	.	.	16dd-
+=13	=13	=13	=13	=13	=13
+Bb_minor	.	2.BB-	2.b-	2.dd-	4ff
+.	.	.	.	.	4ff
+.	.	.	.	.	4bb-
+=14	=14	=14	=14	=14	=14
+F_dominant_seventh	.	2F	2cc	2ee-	4aa
+.	.	.	.	.	4ff
+.	.	4r	4r	4r	8.b-
+.	.	.	.	.	16dd-
+=15	=15	=15	=15	=15	=15
+Bb_minor	.	2B-	2b-	2dd-	4ff
+.	.	.	.	.	4ff
+E_fully-diminished_seventh	.	4E	4e	4bb-	4ddd-
+=16	=16	=16	=16	=16	=16
+F_major	.	4F	2f	2aa	2ccc
+.	.	4FF	.	.	.
+*B-:	*B-:	*B-:	*B-:	*B-:	*B-:
+Bb_major	Not sure about this modulation, taking it from the automatic analysis	4r	4r	8.B-	8.b-
+.	.	.	.	16d	16dd
+=17	=17	=17	=17	=17	=17
+Bb_major	.	2.D	[2.B-	4f	4ff
+.	.	.	.	4f	4ff
+.	.	.	.	4b-	4bb-
+=18	=18	=18	=18	=18	=18
+C_minor	.	2.E-	2B-]	4g	4gg
+.	.	.	.	4e-	4ee-
+.	.	.	4g	4c	4cc
+=19	=19	=19	=19	=19	=19
+Bb_major	.	2.F	2f	2d	2b-
+?	.	.	4e-	8.e-	8.cc
+.	.	.	.	16c	16a
+=20	=20	=20	=20	=20	=20
+Bb_major	.	4BB-	4d	4B-	[2.b-
+.	.	4B-	2r	8.r	.
+.	.	.	.	16B-	.
+.	.	8.BB-	.	8.d	.
+.	.	16D	.	16f	.
+=21	=21	=21	=21	=21	=21
+Bb_dominant_seventh	.	4F	4D	4a-	2.b-_
+.	.	4A-	4F	8.f	.
+.	.	.	.	16d	.
+Eb_major	.	8.G	8.G	8.e-	.
+.	.	16E-	16E-	16g	.
+=22	=22	=22	=22	=22	=22
+Bb_major	.	4BB-	4D	4f	2.b-_
+.	.	4B-	2r	8.r	.
+.	.	.	.	16B-	.
+.	.	8.BB-	.	8.d	.
+.	.	16D	.	16f	.
+=23	=23	=23	=23	=23	=23
+Bb_dominant_seventh	.	4F	4D	4a-	2.b-_
+.	.	4A-	4F	8.f	.
+.	.	.	.	16d	.
+Eb_major	.	8.G	8.G	8.e-	.
+.	.	16E-	16E-	16g	.
+=24	=24	=24	=24	=24	=24
+Bb_major	.	4BB-	4D	4f	8.b-]
+.	.	.	.	.	16B-
+.	.	2r	2r	2r	8.c
+.	.	.	.	.	16d
+*E-:	*E-:	*E-:	*E-:	*E-:	*E-:
+.	Back to the first EbMaj phrase	.	.	.	8.e-
+.	.	.	.	.	16g
+=25	=25	=25	=25	=25	=25
+Eb_major	.	4EE-	4e-	4e- 4G	4b-
+.	.	4r	4r	4r	4b-
+.	.	4e-	[4b-	4g	4ee-
+=26	=26	=26	=26	=26	=26
+Bb_dominant_seventh	.	4f	4b-]	4a-	4dd
+.	.	4r	4r	4r	4b-
+.	.	4f	[4b-	4a-	8.b-
+.	.	.	.	.	16dd
+=27	=27	=27	=27	=27	=27
+Eb_major	.	4e-	4b-]	4g	4ee-
+.	.	4r	4r	4r	4ee-
+.	.	4e-	4b-	4g	4gg
+=28	=28	=28	=28	=28	=28
+Bb_dominant_seventh	.	2d	2b-	2f	2aa-
+.	.	4DD	4D	4A-	4A-
+=29	=29	=29	=29	=29	=29
+Eb_major	.	4EE-	4E-	4G	4G
+.	.	4FF	4F	4A-	4A-
+.	.	4GG	4G	4B-	4B-
+=30	=30	=30	=30	=30	=30
+Ab_major	.	4AA-	4A-	4c	4c
+.	.	4BB-	4B-	4d	4d
+.	.	4C	4c	4e-	4e-
+=31	=31	=31	=31	=31	=31
+Ab_major	.	4AA-	4A-	2f	2f
+.	.	4FF	4F	.	.
+.	.	4BB-	4B-	8.d	8.d
+.	.	.	.	16B-	16B-
+=32	=32	=32	=32	=32	=32
+Eb_major	.	4EE-	4E-	4e-	4e-
+.	.	4E-	2r	2r	4r
+.	.	4r	.	.	8.e-
+.	.	.	.	.	16g
+=33	=33	=33	=33	=33	=33
+Eb_major	First theme again	4E-	4e-	4G 4e-	4b-
+.	.	4r	4r	4r	4b-
+.	.	4e-	[4b-	4g	4ee-
+=34	=34	=34	=34	=34	=34
+Bb_dominant_seventh	.	4f	4b-]	4a-	4dd
+.	.	4r	4r	4r	4b-
+.	.	4f	[4b-	4a-	8.b-
+.	.	.	.	.	16dd
+=35	=35	=35	=35	=35	=35
+Eb_major	.	4e-	4b-]	4g	4ee-
+.	.	4r	4r	4r	4ee-
+.	.	4e-	4e-	4b-	4gg
+=36	=36	=36	=36	=36	=36
+A_fully-diminished_seventh	.	[2.c	[2.g-	[2.ee-	[2.aa
+=37	=37	=37	=37	=37	=37
+.	.	2.c_	4g-]	4ee-]	4aa]
+.	.	.	4a	4e-	4gg-
+.	.	.	4a	4e-	4gg-
+=38	=38	=38	=38	=38	=38
+Bb_dominant_seventh	.	2.c]	2.a	4e-	4gg-
+.	.	.	.	4f	4ff
+.	.	.	.	4g-	4ee-
+=39	=39	=39	=39	=39	=39
+Eb_major	.	2.B-	2b-	2g	2ee-
+Bb_dominant_seventh	.	.	4a-	8a-	8ff
+.	.	.	.	8f	8dd
+=40	=40	=40	=40	=40	=40
+Eb_major	.	4E-	4g	4e-	4ee-
+.	.	2r	2r	4r	4r
+*	*	*	*	*	*
+Bb_dominant_seventh	V7b	.	.	8.g	8.b-
+.	.	.	.	16e-	16g
+=41	=41	=41	=41	=41	=41
+D_diminished	.	2.r	2.r	4a-	4cc
+.	.	.	.	4a-	4cc
+.	.	.	.	8.f	8.a-
+.	.	.	.	16d	16f
+=42	=42	=42	=42	=42	=42
+Eb_major	I	4E-	2r	4g	4b-
+.	.	2r	.	4g	4b-
+.	V	.	4e-	4B-	8.g
+.	.	.	.	.	16e-
+=43	=43	=43	=43	=43	=43
+F_minor	.	2AA-	2A-	2c	4f
+.	.	.	.	.	4f
+Bb_dominant_seventh	.	4BB-	4F	4A-	8.d
+.	.	.	.	.	16B-
+=44	=44	=44	=44	=44	=44
+Eb_major	.	4EE-	4E-	4G	4e-
+.	.	4r	2r	2r	2r
+.	V7b	4E-	.	.	.
+=45	=45	=45	=45	=45	=45
+Ab_major	.	2.A-	2.r	2.c	4r
+.	.	.	.	.	8ee-
+.	.	.	.	.	8ccc
+.	.	.	.	.	8bb-
+.	.	.	.	.	8aa-
+=46	=46	=46	=46	=46	=46
+?	Fast modulations starting here	2.B-	2.r	2.d-	2aa-
+G_diminished	.	.	.	.	[4gg
+=47	=47	=47	=47	=47	=47
+?	.	2.c	2.r	2.e-	4gg]
+Ab_major	.	.	.	.	4aa-
+C_diminished	.	.	.	.	[4gg-
+=48	=48	=48	=48	=48	=48
+Db_major	I	2.d-	2.r	2.f	4gg-]
+.	.	.	.	.	4ff
+.	.	.	.	.	[4ff
+=49	=49	=49	=49	=49	=49
+Eb_major	.	2.e-	2.r	2.g	4ff]
+.	.	.	.	.	4ee-
+.	.	.	.	.	4dd-
+=50	=50	=50	=50	=50	=50
+Db_major	.	[2.f	2.r	[2.a-	2.dd-
+=51	=51	=51	=51	=51	=51
+F_minor	.	2.f]	2.r	2.a-]	4cc
+.	.	.	.	.	4cc
+.	.	.	.	.	4dd
+=52	=52	=52	=52	=52	=52
+Eb_major	.	2.e-	2.r	2.g	4ee-
+.	.	.	.	.	4ee-
+.	I	.	.	.	4ee-
+=53	=53	=53	=53	=53	=53
+Bb_major	.	4B-	2.r	4d	4ff
+.	.	4B-	.	4d	4ff
+.	.	4B-	.	4d	8ff
+.	.	.	.	.	8gg
+=54	=54	=54	=54	=54	=54
+Eb_major	.	4E-	2.r	4e-	4ee-
+.	.	4r	.	2r	2r
+.	V7b	4E-	.	.	.
+=55	=55	=55	=55	=55	=55
+G_diminished	.	2.B-	2.r	2.d-	4r
+.	.	.	.	.	4g
+.	.	.	.	.	[4g
+=56	=56	=56	=56	=56	=56
+Ab_major	.	2.c	2.r	2.e-	4g]
+.	.	.	.	.	4a-
+.	.	.	.	.	4a-
+=57	=57	=57	=57	=57	=57
+A_fully-diminished_seventh	.	2.e-	2.r	2.g-	4r
+.	.	.	.	.	4a
+.	.	.	.	.	[4a
+=58	=58	=58	=58	=58	=58
+Bb_major	.	2.d	2.r	2.f	4a]
+.	.	.	.	.	4b-
+.	.	.	.	.	[4b-
+=59	=59	=59	=59	=59	=59
+B_fully-diminished_seventh	.	2.f	2.r	2.a-	4b-]
+.	.	.	.	.	4b
+.	.	.	.	.	[4b
+=60	=60	=60	=60	=60	=60
+C_major	.	2.e	4r	2.g	4b]
+.	.	.	4c	.	4cc
+.	.	.	4c	.	4cc
+=61	=61	=61	=61	=61	=61
+.	.	2e	2c	2g	2cc
+.	.	4r	4r	4r	8.f
+.	.	.	.	.	16a-
+=62	=62	=62	=62	=62	=62
+F_minor	V	4F	4f	4A-	4cc
+.	.	4r	4r	4r	4cc
+.	I	4f	[4cc	4a-	4ff
+=63	=63	=63	=63	=63	=63
+C_major	.	4g	4cc]	4b-	4ee
+.	.	4r	4r	4r	4cc
+.	.	4g	[4cc	4b-	8.cc
+.	.	.	.	.	16ee
+=64	=64	=64	=64	=64	=64
+F_minor	.	4f	4cc]	4a-	4ff
+.	.	4r	4r	4r	4ff
+.	.	4f	[4cc	4a-	4aa-
+=65	=65	=65	=65	=65	=65
+C_dominant_seventh	Finishes in C dominant seventh, dominant of the second degree of Eb major 	4e	4cc]	4g	4bb-
+.	.	2r	2r	2r	2r
+=66	=66	=66	=66	=66	=66
+.	.	2.r	2.r	2.r	2.r
+==	==	==	==	==	==
+*-	*-	*-	*-	*-	*-
+!!!RWG1: This file contains only pitch and duration data.	
+!!!RWG2: Transposing instruments are not transposed.	
+!!!RWG3: Spines may have incompatible meters.	
+!!!RWG4: Durations of rests and tied notes may be interpreted.	
+!!!RWG: Key is interpreted using the Humdrum key tool.	
+!!!GTL: 6 Divertimentos ("Sun")	
+!!!AFT: stage1	
+!!!END: 1997/04/15	
+!!!KEY: 2738297694	
+!!!EMD: Converted from MuseData to Humdrum Dec 16, 2000, by Andreas Kornstaedt using muse2kern.	
+!!!EMD: Manual editing by Craig Sapp, Nov 2001	
+!!!filter: extract -s5,1,6,3,7,8	
