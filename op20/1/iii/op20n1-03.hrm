@@ -98,7 +98,7 @@ iii7	Two appoggiaturas and one passing tone 	8e-\L	8g\L	8b-/L	4.cc\
 vi	Deceptive cadence, expected V	8f\	8f\	8a-/	.
 vi7d	.	8e-\J	8f\J	8a-/J	.
 =20	=20	=20	=20	=20	=20
-viio7/V	.	8dn\L	8c\L	8a-/L	8ff\L
+viio7d/V	.	8dn\L	8c\L	8a-/L	8ff\L
 V	.	8e-\	8e-\	8g/	8b-\
 V7d	.	8d\J	8e-\J	8g/J	8b-\J
 =21	=21	=21	=21	=21	=21
@@ -153,10 +153,10 @@ V7d/V	.	4A-\	4f\	4b-\	4ddn\
 .	.	.	.	.	32ddn\JJJ
 =32	=32	=32	=32	=32	=32
 V	.	8r	8r	8r	8ee-\L
-V7b	.	4G\	[4E-/	[4e-/	8dd-\
+V7	.	4G\	[4E-/	[4e-/	8dd-\
 .	.	.	.	.	8bn\J
 =33	=33	=33	=33	=33	=33
-Ib	Very strange non-harmonic tones, b natural appoggiatura and d natural passing tone	8A-\L	16.E-/LL]	8e-/L]	48b-\LLL
+Ic	Very strange non-harmonic tones, b natural appoggiatura and d natural passing tone	8A-\L	16.E-/LL]	8e-/L]	48b-\LLL
 .	.	.	.	.	48cc\
 .	.	.	.	.	48ddn\
 .	.	.	.	.	48ee-\

@@ -54,8 +54,8 @@ def kern_to_midi(token):
     if not token or token.strip() == '.' or 'r' in token:
         return None
 
-    cleaned = re.sub(r'^[\d.]+', '', token)
-    cleaned = re.sub(r'[\[\]_/\\LJqQ();:!@%^&{}<>~`|,\s]', '', cleaned)
+    cleaned = re.sub(r'[\[\]_/\\LJqQ();:!@%^&{}<>~`|,\s]', '', token)
+    cleaned = re.sub(r'^[\d.]+', '', cleaned)
     if not cleaned:
         return None
 

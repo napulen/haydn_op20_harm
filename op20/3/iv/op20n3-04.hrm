@@ -32,7 +32,7 @@ V7d	.	2c	2d	2f#	8r
 .	.	.	.	.	8a
 .	.	.	.	.	8dd
 =2	=2	=2	=2	=2	=2
-ib	Neighbour minor second in the first violin	4.B-	4.G	4g	16dd
+i	Neighbour minor second in the first violin	4.B-	4.G	4g	16dd
 .	.	.	.	.	16cc#
 .	.	.	.	.	16dd
 .	.	.	.	.	16cc#
@@ -219,13 +219,13 @@ V7c	.	2c	4.a	2e-	8r
 .	.	.	.	.	8ff
 .	.	.	8f	.	8aa
 =21	=21	=21	=21	=21	=21
-Ib	.	4d	4B-	4f	16bb-
+I	.	4d	4B-	4f	16bb-
 .	.	.	.	.	16aa
 .	.	.	.	.	16bb-
 .	.	.	.	.	16aa
 .	.	4r	4r	4r	8bb-
 .	.	.	.	.	8ddd
-IV	.	4e-	4B-	4b-	16gg
+IVc	.	4e-	4B-	4b-	16gg
 .	.	.	.	.	16ff#
 .	.	.	.	.	16gg
 .	.	.	.	.	16ff#
@@ -699,7 +699,7 @@ V7d	.	2c	2d	2f#	8r
 .	.	.	.	.	8a
 .	.	.	.	.	8dd
 =72	=72	=72	=72	=72	=72
-ib	.	4.B-	4.G	4g	16dd
+i	.	4.B-	4.G	4g	16dd
 .	.	.	.	.	16cc#
 .	.	.	.	.	16dd
 .	.	.	.	.	16cc#

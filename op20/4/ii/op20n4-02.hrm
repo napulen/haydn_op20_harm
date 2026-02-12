@@ -324,15 +324,15 @@ V	.	8A\	8r	8r	8r
 =37	=37	=37	=37	=37	=37
 i	.	4d\	8r	8r	8r
 .	.	.	8F/	8A/	8A/
-viio	.	8c#\L	8E/L	8e/L	8g/L
+viiob	.	8c#\L	8E/L	8e/L	8g/L
 i	.	8d\J	8D/J	8f/J	8f/J
 =38	=38	=38	=38	=38	=38
-viioD7d	.	8B-\L	8G/L	8c#/L	8e/L
-ic	.	8A\J	8F/J	8d/J	8d/J
+viioD7c	.	8B-\L	8G/L	8c#/L	8e/L
+ib	.	8A\J	8F/J	8d/J	8d/J
 V	.	24AA\LL	8r	8r	8r
 .	.	24C#\	.	.	.
 .	.	24E'\	.	.	.
-V7	.	24A\	8G/	[8A/	8c#/
+V7d	.	24A\	8G/	[8A/	8c#/
 .	.	24c#\	.	.	.
 .	.	24e'\JJ	.	.	.
 =39	=39	=39	=39	=39	=39
@@ -395,7 +395,7 @@ III	.	24FF'/LL	4F/	4A/	4f/
 =45	=45	=45	=45	=45	=45
 viioc/iv	.	4c\	8r	8r	4r
 .	.	.	8F#/	8A/	.
-ivb	.	8B-\L	8G/L	8B-/L	8r
+iv	.	8B-\L	8G/L	8B-/L	8r
 viioD7/iv	.	8F#\J	8A/J	8c/J	16e-/LL
 .	.	.	.	.	16c/JJ
 =46	=46	=46	=46	=46	=46
@@ -416,10 +416,10 @@ iioc	.	4b-\	8r	8r	8r
 .	.	16f\	8G'/J	8B-'/J	8e'/J
 .	.	16e\JJ	.	.	.
 =48	=48	=48	=48	=48	=48
-i	.	8.d\L	4.A/	4A/	4f/
+ic	.	8.d\L	4.A/	4A/	4f/
 .	.	32e\LL	.	.	.
 .	.	32d\JJJ	.	.	.
-Vb	.	8c#'\L	.	8a/L	8e/L
+V	.	8c#'\L	.	8a/L	8e/L
 Vb/iv	.	8F#\J	8F#/	[8d/J	8a/J
 =49	=49	=49	=49	=49	=49
 (iv)	.	16G/LL	2G/	8d/L]	2b-\
@@ -461,7 +461,7 @@ Gn	.	16d\LL	2B-/]	4.g#/	2dd\_
 ic	The disposition of the augmented sixth looks strange because the voices overlap	8a\	4A/	8f/L	8dd\]
 .	.	4d\	.	8A/J	4f/
 .	.	.	4A/	8r	.
-V7b	.	16e\LL	.	8A/	16g/LL
+V7	.	16e\LL	.	8A/	16g/LL
 .	.	16c#\JJ	.	.	16e/JJ
 =54	=54	=54	=54	=54	=54
 .	Anticipation of D natural in the viola	4c#\	8D/L	4g/	4e/
@@ -902,14 +902,14 @@ ib	.	8F\	8d\	8dd\	24r
 .	.	8r	8r	8r	24ff\
 .	.	.	.	.	24ee\
 .	.	.	.	.	24dd\JJ
-V7b	.	8c#\	8A/	8g/	24r
+V7	.	8c#\	8A/	8g/	24r
 .	.	.	.	.	24ee\LL
 .	.	.	.	.	24ff\
 .	.	8r	8r	8r	24gg\
 .	.	.	.	.	24ff\
 .	.	.	.	.	24ee\JJ
 =109	=109	=109	=109	=109	=109
-i	.	8d\	8A/	8f/	24r
+ic	.	8d\	8A/	8f/	24r
 .	.	.	.	.	24dd\LL
 .	.	.	.	.	24ee\
 .	.	8r	8r	8r	24ff\
@@ -937,8 +937,8 @@ Vb	.	8c#\L	8e\L	8e/L	8a/L
 V7c/III	.	8G\J	8e\J	8b-/J	8cc#/J
 =112	=112	=112	=112	=112	=112
 ib	.	8F\L	8f\L	8a\L	8dd\L
-V7b	.	8c#\J	8A\J	8ee\J	8gg\J
-i	.	8d\L	8A\L	8dd\L	8ff\L
+V7	.	8c#\J	8A\J	8ee\J	8gg\J
+ic	.	8d\L	8A\L	8dd\L	8ff\L
 viioD7c/iv	.	8cn\J	8a\J	8ee-\J	8ff#\J
 =113	=113	=113	=113	=113	=113
 ivb	.	8B-\L	8b-\L	8dd\L	8gg\L
