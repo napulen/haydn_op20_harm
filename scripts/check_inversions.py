@@ -167,7 +167,7 @@ def get_chord_tones(tonic_pc, roman):
         fifth = (root + 7) % 12
     tones = [root, third, fifth]
     if '7' in roman:
-        if ('o' in roman or 'O' in roman) and 'D' in roman:
+        if ('o' in roman or 'O' in roman) and re.search(r'[oO]D7', roman):
             tones.append((root + 9) % 12)
         elif 'M' in roman:
             tones.append((root + 11) % 12)
@@ -223,11 +223,11 @@ def analyze_file(filepath):
         nv = get_lowest_pitch(viola_cell)
         if nc is not None:
             cello_p = nc
-        elif 'r' in cello_cell and cello_cell != '.':
+        elif re.search(r'\d+\.?r', cello_cell) and cello_cell != '.':
             cello_p = None
         if nv is not None:
             viola_p = nv
-        elif 'r' in viola_cell and viola_cell != '.':
+        elif re.search(r'\d+\.?r', viola_cell) and viola_cell != '.':
             viola_p = None
 
         if not (new_harm and viola_p is not None and cello_p is not None

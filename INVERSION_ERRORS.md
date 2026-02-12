@@ -13,7 +13,7 @@ python3 scripts/check_inversions.py
 ## Methodology
 
 For each `.hrm` file, the script:
-1. Tracks the current sounding pitch of the cello (column 3, `*clefF4`) and viola (column 4, `*clefC3`)
+1. Tracks the current sounding pitch of the cello (3rd data column, `*clefF4`) and viola (4th data column, `*clefC3`)
 2. At every new harmony annotation onset, checks whether the viola pitch is lower than the cello pitch
 3. If so, computes the expected chord tones from the Roman numeral and current key
 4. Compares the annotated inversion's expected bass pitch class against both the cello and viola pitch classes
