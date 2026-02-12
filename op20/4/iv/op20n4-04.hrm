@@ -155,10 +155,10 @@ V7d/V	.	4d	4b	4ee	4gg#
 .	.	8r	8r	8r	8r
 .	.	8d	8e	8b	8gg#
 =16	=16	=16	=16	=16	=16
-Vb	.	4c#	4A	4cc#	4aa
+V	.	4c#	4A	4cc#	4aa
 .	.	8r	8r	8r	8r
-V7b	.	8c#	4.A	8ee	8gg
-i	.	8d	.	4dd	8ff#
+V7	.	8c#	4.A	8ee	8gg
+ic	.	8d	.	4dd	8ff#
 .	Passing tone in the first violin	8F#	.	.	8aa#
 iib	.	8G	8r	8r	8bb
 viio/ii	.	8r	8d#	8ff#	8aa
@@ -627,7 +627,7 @@ ib	.	16d	4d	4b	4ff#]
 .	.	16e	.	.	.
 .	.	16f#	.	.	.
 .	.	16d	.	.	.
-V7d	.	8e	4A#	4cc#	16ff#
+V7b	.	8e	4A#	4cc#	16ff#
 .	.	.	.	.	16ee#
 .	.	8c#	.	.	16ff#
 .	.	.	.	.	16ee#
@@ -1294,7 +1294,7 @@ I	.	16D	16F#	.	4ff#
 =116	=116	=116	=116	=116	=116
 V7b	.	8C#	4E	2a]	4gg
 .	.	8c#	.	.	.
-I	.	8d	4F#	.	8ff#
+Ib	.	8d	4F#	.	8ff#
 .	.	8D	.	.	8dd
 ii	.	8G	4G	4b	16ee
 .	.	.	.	.	16ff#
